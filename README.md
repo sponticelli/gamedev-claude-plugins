@@ -7,24 +7,60 @@ A comprehensive plugin marketplace for AI-augmented game development. These plug
 ### Add the Marketplace
 
 ```bash
-/plugin marketplace add sponticelli/gamedev-claude-plugins
+claude plugin marketplace add sponticelli/gamedev-claude-plugins
 ```
 
 ### Install Individual Plugins
 
 ```bash
 # Install all plugins
-/plugin install thinking@gamedev-claude-plugins
-/plugin install game-design@gamedev-claude-plugins
-/plugin install engineering@gamedev-claude-plugins
-/plugin install ui-ux@gamedev-claude-plugins
-/plugin install art@gamedev-claude-plugins
-/plugin install audio@gamedev-claude-plugins
-/plugin install product@gamedev-claude-plugins
-/plugin install marketing@gamedev-claude-plugins
-/plugin install operations@gamedev-claude-plugins
-/plugin install strategy@gamedev-claude-plugins
+claude plugin install thinking@gamedev-claude-plugins
+claude plugin install game-design@gamedev-claude-plugins
+claude plugin install engineering@gamedev-claude-plugins
+claude plugin install ui-ux@gamedev-claude-plugins
+claude plugin install art@gamedev-claude-plugins
+claude plugin install audio@gamedev-claude-plugins
+claude plugin install product@gamedev-claude-plugins
+claude plugin install marketing@gamedev-claude-plugins
+claude plugin install operations@gamedev-claude-plugins
+claude plugin install strategy@gamedev-claude-plugins
 ```
+
+### Installation Scopes
+
+Plugins can be installed at three different scope levels:
+
+| Scope | Flag | Location | Use Case |
+|-------|------|----------|----------|
+| **User** | `--scope user` | `~/.claude/settings.json` | Available in ALL projects |
+| **Project** | `--scope project` | `.claude/settings.json` | Shared with team via git |
+| **Local** | `--scope local` | `~/.claude.json` | Current project only (default) |
+
+#### Install Globally (All Projects)
+
+To use plugins across all your projects, add `--scope user`:
+
+```bash
+# Add marketplace globally
+claude plugin marketplace add sponticelli/gamedev-claude-plugins --scope user
+
+# Install plugins globally
+claude plugin install thinking@gamedev-claude-plugins --scope user
+claude plugin install game-design@gamedev-claude-plugins --scope user
+claude plugin install strategy@gamedev-claude-plugins --scope user
+# ... etc
+```
+
+#### Install for Team (Project Scope)
+
+To share plugins with your team via git:
+
+```bash
+claude plugin marketplace add sponticelli/gamedev-claude-plugins --scope project
+claude plugin install game-design@gamedev-claude-plugins --scope project
+```
+
+> **Note:** If a plugin exists at multiple scopes, local overrides project, which overrides user.
 
 ## Plugins Overview
 
