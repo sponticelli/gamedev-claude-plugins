@@ -7,6 +7,13 @@
   },
   "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
   "license": "MIT",
-  "agents": ["./agents"],
-  "commands": ["./commands"]
+  "agents": [
+    "./agents/interface-artisan.md",
+    "./agents/onboarding-guide.md",
+    "./agents/accessibility-advocate.md"
+  ],
+  "commands": [
+    "./commands/wireframe.md",
+    "./commands/ux-audit.md"
+  ]
 }

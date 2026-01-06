@@ -7,6 +7,18 @@
   },
   "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
   "license": "MIT",
-  "agents": ["./agents"],
-  "commands": ["./commands"]
+  "agents": [
+    "./agents/mechanics-architect.md",
+    "./agents/systems-weaver.md",
+    "./agents/balance-oracle.md",
+    "./agents/player-psychologist.md",
+    "./agents/puzzle-architect.md",
+    "./agents/economy-designer.md",
+    "./agents/difficulty-tuner.md"
+  ],
+  "commands": [
+    "./commands/gdd.md",
+    "./commands/one-page.md",
+    "./commands/loop-check.md"
+  ]
 }

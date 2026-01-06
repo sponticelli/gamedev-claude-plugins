@@ -7,6 +7,12 @@
   },
   "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
   "license": "MIT",
-  "agents": ["./agents"],
-  "commands": ["./commands"]
+  "agents": [
+    "./agents/sound-architect.md",
+    "./agents/music-director.md"
+  ],
+  "commands": [
+    "./commands/audio-brief.md",
+    "./commands/sfx-list.md"
+  ]
 }

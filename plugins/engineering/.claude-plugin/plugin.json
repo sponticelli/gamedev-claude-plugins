@@ -7,6 +7,17 @@
   },
   "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
   "license": "MIT",
-  "agents": ["./agents"],
-  "commands": ["./commands"]
+  "agents": [
+    "./agents/architecture-sage.md",
+    "./agents/performance-detective.md",
+    "./agents/debug-hunter.md",
+    "./agents/gameplay-coder.md",
+    "./agents/tools-builder.md"
+  ],
+  "commands": [
+    "./commands/code-review.md",
+    "./commands/tech-spec.md",
+    "./commands/pattern.md",
+    "./commands/tech-stack.md"
+  ]
 }

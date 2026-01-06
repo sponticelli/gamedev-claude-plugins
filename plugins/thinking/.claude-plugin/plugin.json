@@ -7,6 +7,25 @@
   },
   "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
   "license": "MIT",
-  "agents": ["./agents"],
-  "commands": ["./commands"]
+  "agents": [
+    "./agents/creative-catalyst.md",
+    "./agents/constraint-alchemist.md",
+    "./agents/mash-up-maven.md",
+    "./agents/bias-detector.md",
+    "./agents/mental-models.md"
+  ],
+  "commands": [
+    "./commands/brainstorm.md",
+    "./commands/reverse.md",
+    "./commands/what-if.md",
+    "./commands/random-stimulus.md",
+    "./commands/analogy.md",
+    "./commands/perspective.md",
+    "./commands/bias-check.md",
+    "./commands/devils-advocate.md",
+    "./commands/pre-mortem.md",
+    "./commands/first-principles.md",
+    "./commands/second-order.md",
+    "./commands/inversion.md"
+  ]
 }

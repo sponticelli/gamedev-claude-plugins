@@ -7,6 +7,13 @@
   },
   "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
   "license": "MIT",
-  "agents": ["./agents"],
-  "commands": ["./commands"]
+  "agents": [
+    "./agents/market-analyst.md",
+    "./agents/business-architect.md",
+    "./agents/pivot-evaluator.md"
+  ],
+  "commands": [
+    "./commands/pitch.md",
+    "./commands/swot.md"
+  ]
 }
