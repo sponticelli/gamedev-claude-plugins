@@ -71,12 +71,12 @@ claude plugin install game-design@gamedev-claude-plugins --scope project
 |--------|-------|--------|----------|
 | **thinking** | Creativity, mental models, biases, decision frameworks | 5 | 12 |
 | **game-design** | Mechanics, systems, balance | 7 | 3 |
-| **engineering** | Architecture, performance, debugging | 6 | 4 |
-| **ui-ux** | Interface, onboarding, accessibility | 3 | 2 |
+| **engineering** | Architecture, performance, debugging | 5 | 4 |
+| **ui-ux** | Interface and onboarding | 2 | 2 |
 | **art** | Visual direction and asset planning | 2 | 2 |
 | **audio** | Sound design and music | 2 | 2 |
 | **product** | Product management for any product | 2 | 2 |
-| **marketing** | Launch, community, and store presence | 4 | 4 |
+| **marketing** | Launch, community, and store presence | 3 | 4 |
 | **operations** | Live ops, analytics, and QA | 3 | 2 |
 | **strategy** | Business strategy for any venture | 3 | 2 |
 | **scope-guardian** | Scope management and feature alignment | 1 | 2 |
@@ -155,12 +155,11 @@ Game programming, architecture, and technical problem-solving.
 
 ### ui-ux
 
-User interface, user experience, and accessibility.
+User interface, user experience, and player onboarding.
 
 **Agents:**
 - **interface-artisan** — Designs intuitive game interfaces
 - **onboarding-guide** — Creates tutorials that teach through play
-- **accessibility-advocate** — Ensures games are playable by everyone
 
 **Commands:**
 - `/wireframe` — Generate text-based UI wireframe
@@ -353,9 +352,9 @@ Claude: [Uses pivot-evaluator agent to help you make a clear-eyed assessment]
 | Category | Count |
 |----------|-------|
 | Plugins | 13 |
-| Agents | 40 |
+| Agents | 37 |
 | Commands | 41 |
-| **Total Tools** | **81** |
+| **Total Tools** | **78** |
 
 ---
 

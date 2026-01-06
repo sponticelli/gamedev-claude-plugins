@@ -1,6 +1,6 @@
 {
   "name": "ui-ux",
-  "description": "User interface design, user experience, accessibility, and player onboarding",
+  "description": "User interface design, user experience, and player onboarding",
   "version": "1.0.0",
   "author": {
     "name": "GameDev Plugins"
@@ -9,8 +9,7 @@
   "license": "MIT",
   "agents": [
     "./agents/interface-artisan.md",
-    "./agents/onboarding-guide.md",
-    "./agents/accessibility-advocate.md"
+    "./agents/onboarding-guide.md"
   ],
   "commands": [
     "./commands/wireframe.md",

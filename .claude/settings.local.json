@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Skill(creative-game-designer)"
+      "Skill(creative-game-designer)",
+      "Bash(wc:*)",
+      "Bash(git -C /Users/sandroponticelli/Personal/gamedev-claude-plugins log --oneline --all)",
+      "Bash(for plugin in /Users/sandroponticelli/Personal/gamedev-claude-plugins/plugins/*/)",
+      "Bash(done)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)"
     ]
   }
 }
