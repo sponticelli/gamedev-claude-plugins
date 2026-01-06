@@ -1,0 +1,84 @@
+{
+  "name": "gamedev-claude-plugins",
+  "metadata": {
+    "description": "AI-augmented game development toolkit - agents and commands for every discipline in game creation, from ideation to launch",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "owner": {
+    "name": "Sandro Ponticelli",
+    "email": "sandro.ponticelli@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "thinking",
+      "source": "./plugins/thinking",
+      "description": "Thinking tools: creativity, mental models, cognitive biases, and decision frameworks for any domain",
+      "category": "thinking",
+      "keywords": ["thinking", "mental-models", "biases", "creativity", "decision-making", "problem-solving"]
+    },
+    {
+      "name": "game-design",
+      "source": "./plugins/game-design",
+      "description": "Core game design - mechanics, systems, balance, progression, and player experience",
+      "category": "design",
+      "keywords": ["mechanics", "systems", "balance", "progression", "GDD", "game-design"]
+    },
+    {
+      "name": "engineering",
+      "source": "./plugins/engineering",
+      "description": "Game programming, architecture, performance, and technical problem-solving",
+      "category": "technical",
+      "keywords": ["programming", "architecture", "optimization", "debugging", "patterns"]
+    },
+    {
+      "name": "ui-ux",
+      "source": "./plugins/ui-ux",
+      "description": "User interface design, user experience, accessibility, and player onboarding",
+      "category": "design",
+      "keywords": ["UI", "UX", "accessibility", "usability", "onboarding", "HUD"]
+    },
+    {
+      "name": "art",
+      "source": "./plugins/art",
+      "description": "Visual art direction, asset pipelines, style guides, and art production",
+      "category": "art",
+      "keywords": ["art-direction", "visual-style", "assets", "animation", "VFX"]
+    },
+    {
+      "name": "audio",
+      "source": "./plugins/audio",
+      "description": "Sound design, music composition, audio implementation, and adaptive audio",
+      "category": "audio",
+      "keywords": ["sound-design", "music", "SFX", "adaptive-audio", "implementation"]
+    },
+    {
+      "name": "product",
+      "source": "./plugins/product",
+      "description": "Product management, feature prioritization, roadmaps, and stakeholder communication for any product",
+      "category": "management",
+      "keywords": ["product-management", "roadmap", "prioritization", "stakeholders", "sprints"]
+    },
+    {
+      "name": "marketing",
+      "source": "./plugins/marketing",
+      "description": "Game marketing, community building, store presence, and launch strategies",
+      "category": "marketing",
+      "keywords": ["marketing", "community", "store-page", "trailers", "press", "launch"]
+    },
+    {
+      "name": "operations",
+      "source": "./plugins/operations",
+      "description": "Live operations, analytics, player support, and post-launch management",
+      "category": "operations",
+      "keywords": ["live-ops", "analytics", "player-support", "monetization", "updates"]
+    },
+    {
+      "name": "strategy",
+      "source": "./plugins/strategy",
+      "description": "Business strategy, market analysis, competitive positioning, and strategic planning for any venture",
+      "category": "business",
+      "keywords": ["strategy", "market-analysis", "competition", "business-model", "planning"]
+    }
+  ]
+}

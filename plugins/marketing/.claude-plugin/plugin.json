@@ -1,0 +1,12 @@
+{
+  "name": "marketing",
+  "description": "Game marketing, community building, store presence, and launch strategies",
+  "version": "1.0.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": ["./agents"],
+  "commands": ["./commands"]
+}

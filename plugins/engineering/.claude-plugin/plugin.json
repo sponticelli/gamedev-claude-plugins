@@ -1,0 +1,12 @@
+{
+  "name": "engineering",
+  "description": "Game programming, architecture, performance, and technical problem-solving",
+  "version": "1.0.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": ["./agents"],
+  "commands": ["./commands"]
+}
