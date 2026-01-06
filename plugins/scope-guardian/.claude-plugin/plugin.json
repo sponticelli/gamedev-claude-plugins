@@ -1,0 +1,17 @@
+{
+  "name": "scope-guardian",
+  "description": "Scope management - tracks features against design pillars, detects scope creep, and protects project focus",
+  "version": "1.0.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/scope-guardian.md"
+  ],
+  "commands": [
+    "./commands/scope-check.md",
+    "./commands/scope-report.md"
+  ]
+}

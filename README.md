@@ -24,6 +24,9 @@ claude plugin install product@gamedev-claude-plugins
 claude plugin install marketing@gamedev-claude-plugins
 claude plugin install operations@gamedev-claude-plugins
 claude plugin install strategy@gamedev-claude-plugins
+claude plugin install scope-guardian@gamedev-claude-plugins
+claude plugin install juice@gamedev-claude-plugins
+claude plugin install accessibility@gamedev-claude-plugins
 ```
 
 ### Installation Scopes
@@ -76,6 +79,9 @@ claude plugin install game-design@gamedev-claude-plugins --scope project
 | **marketing** | Launch, community, and store presence | 4 | 4 |
 | **operations** | Live ops, analytics, and QA | 3 | 2 |
 | **strategy** | Business strategy for any venture | 3 | 2 |
+| **scope-guardian** | Scope management and feature alignment | 1 | 2 |
+| **juice** | Game feel and polish | 1 | 2 |
+| **accessibility** | Inclusive design for all players | 1 | 2 |
 
 ---
 
@@ -251,6 +257,45 @@ Business strategy, market analysis, and decision-making for any venture. Startup
 
 ---
 
+### scope-guardian
+
+Scope management—tracks features against design pillars, detects scope creep, and protects project focus. Essential for keeping projects on track and finishing what you started.
+
+**Agents:**
+- **scope-guardian** — Evaluates features against design pillars, calculates scope drift, identifies creep patterns
+
+**Commands:**
+- `/scope-check` — Quick check if a feature aligns with pillars
+- `/scope-report` — Full scope drift analysis with metrics and recommendations
+
+---
+
+### juice
+
+Game feel and polish—screen shake, particles, animation easing, audio feedback, and the secret sauce that makes games satisfying. Based on principles from "The Art of Screen Shake" and game feel best practices.
+
+**Agents:**
+- **juice-consultant** — Diagnoses missing game feel and prescribes specific juice treatments
+
+**Commands:**
+- `/juice-audit` — Analyze a feature for missing juice
+- `/juice-recipe` — Get implementation-ready juice recipe for a mechanic
+
+---
+
+### accessibility
+
+Game accessibility—ensuring games are playable by everyone through visual, motor, cognitive, and auditory accommodations. Combines WCAG, Game Accessibility Guidelines, and platform certification requirements.
+
+**Agents:**
+- **accessibility-advocate** — Reviews accessibility across all pillars, identifies barriers, prioritizes fixes
+
+**Commands:**
+- `/a11y-check` — Quick accessibility scan of a feature
+- `/a11y-plan` — Full accessibility implementation roadmap
+
+---
+
 ## Design Philosophy
 
 ### Tech-Stack Agnostic
@@ -307,10 +352,10 @@ Claude: [Uses pivot-evaluator agent to help you make a clear-eyed assessment]
 
 | Category | Count |
 |----------|-------|
-| Plugins | 10 |
-| Agents | 37 |
-| Commands | 35 |
-| **Total Tools** | **72** |
+| Plugins | 13 |
+| Agents | 40 |
+| Commands | 41 |
+| **Total Tools** | **81** |
 
 ---
 

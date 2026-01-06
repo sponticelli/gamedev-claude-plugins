@@ -1,0 +1,17 @@
+{
+  "name": "juice",
+  "description": "Game feel and polish - screen shake, particles, animation easing, audio feedback, and the secret sauce that makes games satisfying",
+  "version": "1.0.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/juice-consultant.md"
+  ],
+  "commands": [
+    "./commands/juice-audit.md",
+    "./commands/juice-recipe.md"
+  ]
+}

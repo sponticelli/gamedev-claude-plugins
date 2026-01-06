@@ -79,6 +79,27 @@
       "description": "Business strategy, market analysis, competitive positioning, and strategic planning for any venture",
       "category": "business",
       "keywords": ["strategy", "market-analysis", "competition", "business-model", "planning"]
+    },
+    {
+      "name": "scope-guardian",
+      "source": "./plugins/scope-guardian",
+      "description": "Scope management - tracks features against design pillars, detects scope creep, and protects project focus",
+      "category": "management",
+      "keywords": ["scope", "scope-creep", "project-management", "focus", "design-pillars", "feature-management"]
+    },
+    {
+      "name": "juice",
+      "source": "./plugins/juice",
+      "description": "Game feel and polish - screen shake, particles, animation easing, audio feedback, and the secret sauce that makes games satisfying",
+      "category": "design",
+      "keywords": ["game-feel", "juice", "polish", "screen-shake", "particles", "animation", "feedback"]
+    },
+    {
+      "name": "accessibility",
+      "source": "./plugins/accessibility",
+      "description": "Game accessibility - ensuring games are playable by everyone through visual, motor, cognitive, and auditory accommodations",
+      "category": "design",
+      "keywords": ["accessibility", "a11y", "inclusive", "colorblind", "subtitles", "motor", "cognitive"]
     }
   ]
 }
