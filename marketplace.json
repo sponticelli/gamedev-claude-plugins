@@ -1,7 +1,7 @@
 {
   "name": "GameDev Claude Plugins",
   "description": "A comprehensive collection of Claude Code plugins for game development",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": {
     "name": "GameDev Plugins",
     "url": "https://github.com/sponticelli/gamedev-claude-plugins"
@@ -69,9 +69,9 @@
       "name": "game-design",
       "path": "plugins/game-design",
       "description": "Core game design - mechanics, systems, balance, player psychology, puzzles, economy, and difficulty",
-      "version": "1.1.0",
-      "agents": 7,
-      "commands": 6
+      "version": "1.2.0",
+      "agents": 8,
+      "commands": 3
     },
     {
       "name": "engineering",
@@ -133,16 +133,16 @@
       "name": "strategy",
       "path": "plugins/strategy",
       "description": "Business strategy, market analysis, and strategic decision-making",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "agents": 3,
-      "commands": 3
+      "commands": 2
     },
     {
       "name": "ui-ux",
       "path": "plugins/ui-ux",
       "description": "Game UI design, UX patterns, and onboarding",
-      "version": "1.1.0",
-      "agents": 3,
+      "version": "1.2.0",
+      "agents": 2,
       "commands": 2
     },
     {
@@ -173,9 +173,9 @@
       "name": "thinking",
       "path": "plugins/thinking",
       "description": "Creative thinking tools, brainstorming, and problem-solving frameworks",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "agents": 5,
-      "commands": 11
+      "commands": 12
     },
     {
       "name": "narrative",
@@ -260,8 +260,8 @@
   ],
   "stats": {
     "totalPlugins": 24,
-    "totalAgents": 88,
-    "totalCommands": 89,
-    "totalTools": 177
+    "totalAgents": 89,
+    "totalCommands": 92,
+    "totalTools": 181
   }
 }
