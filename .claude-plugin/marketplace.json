@@ -2,7 +2,7 @@
   "name": "gamedev-claude-plugins",
   "metadata": {
     "description": "AI-augmented game development toolkit - agents and commands for every discipline in game creation, from ideation to launch",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "pluginRoot": "./plugins"
   },
   "owner": {
@@ -100,6 +100,83 @@
       "description": "Game accessibility - ensuring games are playable by everyone through visual, motor, cognitive, and auditory accommodations",
       "category": "design",
       "keywords": ["accessibility", "a11y", "inclusive", "colorblind", "subtitles", "motor", "cognitive"]
+    },
+    {
+      "name": "narrative",
+      "source": "./plugins/narrative",
+      "description": "Narrative design - dialogue systems, world-building, quests, and localization for games",
+      "category": "design",
+      "keywords": ["narrative", "dialogue", "lore", "quests", "world-building", "localization", "storytelling"]
+    },
+    {
+      "name": "level-design",
+      "source": "./plugins/level-design",
+      "description": "Level design - spatial design, pacing, encounters, and environmental storytelling",
+      "category": "design",
+      "keywords": ["level-design", "layout", "pacing", "encounters", "spatial", "environment"]
+    },
+    {
+      "name": "multiplayer",
+      "source": "./plugins/multiplayer",
+      "description": "Multiplayer game development - networking architecture, netcode, server infrastructure, anti-cheat, and backend services",
+      "category": "technical",
+      "keywords": ["multiplayer", "networking", "netcode", "servers", "matchmaking", "anti-cheat", "backend"]
+    },
+    {
+      "name": "technical-art",
+      "source": "./plugins/technical-art",
+      "description": "Technical art - pipelines, animation systems, asset optimization, and shader development",
+      "category": "technical",
+      "keywords": ["technical-art", "pipelines", "shaders", "animation", "asset-optimization", "VFX"]
+    },
+    {
+      "name": "ai-systems",
+      "source": "./plugins/ai-systems",
+      "description": "Game AI - behavior trees, NPC systems, dynamic difficulty, and intelligent agent design",
+      "category": "technical",
+      "keywords": ["game-ai", "behavior-trees", "NPC", "pathfinding", "dynamic-difficulty", "agents"]
+    },
+    {
+      "name": "procedural",
+      "source": "./plugins/procedural",
+      "description": "Procedural content generation - PCG systems, algorithms, constraints, and emergent content",
+      "category": "technical",
+      "keywords": ["procedural", "PCG", "generation", "algorithms", "seeds", "constraints", "emergent"]
+    },
+    {
+      "name": "certification",
+      "source": "./plugins/certification",
+      "description": "Platform certification - TRC/XR compliance, submission planning, and platform requirements",
+      "category": "operations",
+      "keywords": ["certification", "TRC", "XR", "compliance", "submission", "platform-requirements"]
+    },
+    {
+      "name": "user-research",
+      "source": "./plugins/user-research",
+      "description": "User research - playtesting, player surveys, behavioral analysis, and UX research",
+      "category": "research",
+      "keywords": ["user-research", "playtesting", "surveys", "analytics", "UX-research", "player-behavior"]
+    },
+    {
+      "name": "social-systems",
+      "source": "./plugins/social-systems",
+      "description": "Social systems - guilds, clans, in-game social features, and community mechanics",
+      "category": "design",
+      "keywords": ["social", "guilds", "clans", "community", "friends", "leaderboards"]
+    },
+    {
+      "name": "devops",
+      "source": "./plugins/devops",
+      "description": "CI/CD pipelines, automated testing, build systems, deployment, and infrastructure for game development",
+      "category": "technical",
+      "keywords": ["devops", "CI-CD", "pipelines", "builds", "deployment", "automation", "infrastructure"]
+    },
+    {
+      "name": "web-games",
+      "source": "./plugins/web-games",
+      "description": "Browser games, WebGL, HTML5, PWA, and web-specific game development challenges",
+      "category": "technical",
+      "keywords": ["web-games", "WebGL", "HTML5", "PWA", "browser", "canvas", "web-audio"]
     }
   ]
 }
