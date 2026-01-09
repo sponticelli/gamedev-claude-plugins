@@ -249,6 +249,34 @@ Good sprint planning enables:
 **Problem:** Same items roll over sprint after sprint
 **Fix:** Break down work smaller, investigate blockers
 
+## Verification
+
+Before considering the sprint plan complete:
+
+### Capacity Verification
+- [ ] Individual availability accounted for (PTO, meetings)
+- [ ] Historical velocity consulted
+- [ ] Buffer included for unknowns
+- [ ] Commitment is achievable, not aspirational
+
+### Goal Verification
+- [ ] Sprint goal is clear and measurable
+- [ ] All committed work serves the goal
+- [ ] Success criteria are defined
+- [ ] Team understands and agrees with goal
+
+### Readiness Verification
+- [ ] All committed items have acceptance criteria
+- [ ] Dependencies are identified and cleared (or planned)
+- [ ] Items are estimated
+- [ ] Team has capacity for committed work
+
+### Process Verification
+- [ ] Ceremonies scheduled (standup, review, retro)
+- [ ] Previous retro actions addressed
+- [ ] Risks identified with mitigations
+- [ ] Communication plan for blockers exists
+
 ## Golden Rules
 
 1. **Yesterday's weather** - Past velocity predicts future capacity
@@ -256,3 +284,13 @@ Good sprint planning enables:
 3. **Team commitment** - Team owns the commitment
 4. **Protect the sprint** - Change is exception, not rule
 5. **Improve every sprint** - Retro actions actually happen
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `product-owner` | Get prioritized backlog |
+| After | `qa-planner` | Plan testing within sprints |
+| Parallel | `asset-planner` | Coordinate art production schedule |
+| Parallel | `scope-guardian` | Guard sprint scope |
+| Verify | `verify-implementation` | Validate sprint work is complete |

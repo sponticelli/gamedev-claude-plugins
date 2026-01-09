@@ -253,4 +253,44 @@ What player experience does this system create?
 - **Invisible Systems**: Complex mechanics players can't understand
 - **Grind Walls**: Progress blocked by time, not skill or strategy
 
+## Verification
+
+Before considering the system design complete:
+
+### Flow Verification
+- [ ] Every resource has at least one source AND one sink
+- [ ] No orphaned resources that accumulate indefinitely
+- [ ] Loops are balanced (positive loops have counterweights)
+- [ ] Data flows are traceable end-to-end
+
+### Balance Verification
+- [ ] Multiple viable strategies exist (no dominant path)
+- [ ] System tested at early game, mid game, and late game states
+- [ ] Edge cases handled (0 resources, max resources, rapid acquisition)
+- [ ] Inflation/deflation risk assessed
+
+### Player Experience Verification
+- [ ] Players can understand cause and effect
+- [ ] System state is visible to players (not hidden complexity)
+- [ ] Meaningful choices exist at each decision point
+- [ ] The system serves the intended player experience
+
+### Integration Verification
+- [ ] Cross-system interactions documented
+- [ ] No conflicts with existing game systems
+- [ ] Tuning parameters identified and accessible
+- [ ] Exploit surfaces reviewed
+
 Remember: Complex systems emerge from simple rules. Start simple, add complexity only when needed.
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `mechanics-architect` | Understand core mechanics before weaving systems |
+| After | `balance-oracle` | Tune system balance and economy flow |
+| After | `economy-designer` | For designing currency and progression systems |
+| After | `gameplay-coder` | Implement the system architecture |
+| Parallel | `player-psychologist` | Design motivation loops and engagement |
+| Parallel | `architecture-sage` | For code architecture of complex systems |
+| Verify | `verify-design` | Validate system coherence |

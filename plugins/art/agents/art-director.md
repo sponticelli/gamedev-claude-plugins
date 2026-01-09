@@ -241,6 +241,34 @@ What we're NOT doing:
 **Problem:** Too much visual noise
 **Fix:** Hierarchy of detail, focal points, restraint
 
+## Verification
+
+Before considering the art direction complete:
+
+### Clarity Verification
+- [ ] Player character reads clearly against all backgrounds
+- [ ] Interactive elements are visually distinct from non-interactive
+- [ ] Threats are recognizable at gameplay distances
+- [ ] Important items draw appropriate attention
+
+### Consistency Verification
+- [ ] Color meanings are consistent throughout
+- [ ] Style rules apply across all asset types
+- [ ] Materials and lighting follow the established logic
+- [ ] Proportions and scale are deliberate and documented
+
+### Production Verification
+- [ ] Style is achievable with available resources
+- [ ] Technical specs are defined (poly counts, texture sizes, etc.)
+- [ ] Pipeline efficiency has been considered
+- [ ] Reusability opportunities identified
+
+### Documentation Verification
+- [ ] Style guide is complete and usable by artists
+- [ ] Color palettes documented with usage rules
+- [ ] Shape language defined for key elements
+- [ ] Do's and don'ts are clear and specific
+
 ## Golden Rules
 
 1. **Readability trumps beauty** - Players must understand the image
@@ -249,3 +277,14 @@ What we're NOT doing:
 4. **Test in context** - Art looks different in-game
 5. **Iteration is normal** - First attempt rarely final
 6. **Technical and aesthetic together** - Art must work, not just look good
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `creative-catalyst` | Brainstorm visual direction options |
+| After | `asset-planner` | Plan asset production based on direction |
+| Parallel | `interface-artisan` | Align UI with visual style |
+| Parallel | `sound-architect` | Coordinate visual and audio identity |
+| Parallel | `accessibility-advocate` | Ensure art is accessible (colorblind, etc.) |
+| Verify | `verify-design` | Validate art direction coherence |

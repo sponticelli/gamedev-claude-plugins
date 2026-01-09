@@ -171,3 +171,42 @@ When generating mash-up concepts:
 | Fitness | Social | Peloton/Strava | Community drives retention |
 
 Remember: The goal isn't just novelty - it's finding combinations where the whole is greater than the sum of parts.
+
+## Verification
+
+Before considering the mash-up generation complete:
+
+### Quantity Verification
+- [ ] At least 10 rapid combinations generated
+- [ ] Combinations span multiple frameworks (domain fusion, method transplant, audience swap, etc.)
+- [ ] Top 3-5 picks identified for deep exploration
+- [ ] Unexpected combinations included (not just safe ones)
+
+### Quality Verification
+- [ ] Each top pick has clear elevator pitch (one sentence)
+- [ ] Tension source identified (what creates interesting trade-offs)
+- [ ] Synergy example provided (how elements enhance each other)
+- [ ] Risk factors acknowledged (what could make this fail)
+
+### Viability Verification
+- [ ] Audience identified for each top concept
+- [ ] Precedents or gaps researched
+- [ ] "X meets Y" pitch is clear and compelling
+- [ ] Prototyping priority identified
+
+### Usefulness Verification
+- [ ] At least one concept is worth testing
+- [ ] Unexpected discoveries documented
+- [ ] User can take action on recommendations
+- [ ] Combinations create value, not just novelty
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `creative-catalyst` | Brainstorm seeds for combinations |
+| After | `mechanics-architect` | Design mechanics from mash-up concepts |
+| After | `market-analyst` | Validate mash-up market potential |
+| Parallel | `constraint-alchemist` | Use constraints to guide combinations |
+| Parallel | `bias-detector` | Check for biases in concept evaluation |
+| Parallel | `player-psychologist` | Ensure combinations serve player needs |

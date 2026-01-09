@@ -7,6 +7,33 @@ description: Generate a Game Design Document outline with proper structure and s
 
 Create a structured GDD outline based on the user's game concept.
 
+## Context Gathering
+
+Before generating the GDD, understand the project context:
+
+### Check for Existing Documentation
+- Look for files matching: `*gdd*`, `*design*`, `*spec*`, `README*`
+- Read any existing documentation to understand current state
+- Note what's already defined vs. what needs to be created
+
+### Identify Project Type
+- **Unity:** Look for `.meta` files, `Assets/` folder, `ProjectSettings/`
+- **Godot:** Look for `project.godot`, `*.tscn`, `*.gd` files
+- **Unreal:** Look for `.uproject` files, `Content/` folder
+- **Custom/Other:** Look for `package.json`, `Cargo.toml`, build files
+
+### Understand Scope
+- Check git history to gauge project maturity
+- Count source files to estimate project size
+- Look for existing assets to gauge production stage
+- Review any existing design notes or concepts
+
+Use this context to:
+- Reference existing decisions rather than re-inventing them
+- Match the GDD scope to the project stage
+- Incorporate existing terminology and naming conventions
+- Identify what sections need the most attention
+
 ## Process
 
 1. Understand the game concept from user input

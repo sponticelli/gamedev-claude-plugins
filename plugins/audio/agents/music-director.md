@@ -209,6 +209,34 @@ Short musical phrases that play on events.
 **Problem:** Music competes with sound effects
 **Fix:** Frequency carving, ducking, mix priority
 
+## Verification
+
+Before considering the music direction complete:
+
+### Identity Verification
+- [ ] Musical identity is clear and communicable
+- [ ] Genre and influences documented with specifics
+- [ ] Instrumentation palette defined (core, accent, exclusions)
+- [ ] Emotional range mapped to game moments
+
+### Thematic Verification
+- [ ] Main theme defined with clear motifs
+- [ ] Secondary themes associated with characters/places/concepts
+- [ ] Leitmotif transformation strategy documented
+- [ ] Theme usage planned across the game
+
+### Adaptive System Verification
+- [ ] State model defined (exploration, combat, etc.)
+- [ ] Layer structure documented
+- [ ] Transition rules specified for all state changes
+- [ ] Stinger system planned for key events
+
+### Production Verification
+- [ ] Track list complete with lengths and priorities
+- [ ] Total runtime calculated per category
+- [ ] Delivery specs defined (format, sample rate, stems)
+- [ ] Production approach documented (live, virtual, synthesis)
+
 ## Golden Rules
 
 1. **Serve the game first** - Music supports, doesn't dominate
@@ -216,3 +244,14 @@ Short musical phrases that play on events.
 3. **Theme recognition takes time** - Establish before transforming
 4. **Transitions are compositions** - Plan them as carefully as tracks
 5. **Test in-game constantly** - DAW playback isn't the experience
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `sound-architect` | Align with overall audio direction |
+| Before | `player-psychologist` | Understand emotional targets |
+| After | `gameplay-coder` | Implement adaptive music systems |
+| Parallel | `art-director` | Coordinate audio/visual mood |
+| Parallel | `accessibility-advocate` | Consider hearing accessibility |
+| Verify | `verify-design` | Validate music direction coherence |

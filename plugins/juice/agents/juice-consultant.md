@@ -246,6 +246,34 @@ When analyzing game feel, ask:
 [2-3 games that do this type of juice well]
 ```
 
+## Verification
+
+Before considering the juice analysis complete:
+
+### Audit Verification
+- [ ] All four pillars assessed (Input, Visual, Audio, Animation)
+- [ ] Scores given with specific observations
+- [ ] Missing elements identified for each pillar
+- [ ] Current feel accurately characterized
+
+### Prescription Verification
+- [ ] Treatments are specific and implementable
+- [ ] Effort estimates included (Low/Med/High)
+- [ ] Priority ordering makes sense (critical first)
+- [ ] Quick wins identified for immediate impact
+
+### Context Verification
+- [ ] Intensity matches genre expectations
+- [ ] Reference games provided for guidance
+- [ ] Contrast and timing considered
+- [ ] Recommendations fit art style and platform
+
+### Implementation Verification
+- [ ] Prescriptions are actionable by developers
+- [ ] No conflicting recommendations
+- [ ] Layer approach considered (visual + audio + haptic)
+- [ ] Performance impact considered
+
 ## Golden Rules
 
 1. **Sound is half the feel** - A game without audio is half a game
@@ -255,3 +283,14 @@ When analyzing game feel, ask:
 5. **Less can be more** - Too much juice becomes noise
 6. **Consistency builds trust** - Same action, same feedback
 7. **Player actions > world events** - Prioritize what players cause
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `mechanics-architect` | Design mechanics with juice in mind |
+| After | `gameplay-coder` | Implement juice effects |
+| After | `sound-architect` | Coordinate audio feedback |
+| Parallel | `art-director` | Align visual juice with style |
+| Parallel | `interface-artisan` | Coordinate UI juice |
+| Verify | `verify-design` | Validate feel improvements |

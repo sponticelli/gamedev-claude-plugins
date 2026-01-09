@@ -7,6 +7,26 @@ description: Create a one-page game design pitch document - perfect for pitching
 
 Condense a game concept into a single page that communicates the vision clearly.
 
+## Context Gathering
+
+Before generating the pitch, understand what exists:
+
+### Check for Existing Work
+- Look for any design documents, README files, or concept notes
+- Review existing art assets or screenshots if available
+- Check for previous pitch iterations
+
+### Identify Existing Identity
+- Game name or working title
+- Any established visual style or tone
+- Target platform if already decided
+- Team context (solo, small team, studio)
+
+Use this context to:
+- Maintain consistency with existing materials
+- Reference concrete details rather than generics
+- Make the pitch feel grounded in reality
+
 ## Output Format
 
 ```markdown

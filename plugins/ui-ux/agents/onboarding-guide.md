@@ -206,6 +206,34 @@ What should the player know after this section?
 - Post-play interviews
 - Sentiment analysis
 
+## Verification
+
+Before considering the onboarding design complete:
+
+### Learning Verification
+- [ ] Each mechanic is introduced one at a time
+- [ ] Practice opportunity exists for each new concept
+- [ ] Verification challenge requires understanding (not luck)
+- [ ] Integration with previously learned mechanics tested
+
+### Friction Verification
+- [ ] Tested with fresh players (not developers)
+- [ ] Confusion points identified and addressed
+- [ ] Frustration points identified and addressed
+- [ ] Skip/disengage points identified and addressed
+
+### Experience Verification
+- [ ] Players feel clever when they figure things out (not lectured)
+- [ ] Failure is low-stakes and informative
+- [ ] Success is celebrated appropriately
+- [ ] Pacing matches target session length
+
+### Options Verification
+- [ ] Skip options available for experienced players
+- [ ] Tutorial can be replayed if needed
+- [ ] Hints are available but not intrusive
+- [ ] Accessibility needs considered (timing, complexity)
+
 ## Golden Rules
 
 1. **Teach one thing at a time** - Complexity kills learning
@@ -214,3 +242,15 @@ What should the player know after this section?
 4. **Celebrate success** - Positive feedback motivates
 5. **Respect player time** - Skip options for veterans
 6. **Test with fresh players** - You can't unlearn what you know
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `mechanics-architect` | Understand mechanics to teach |
+| Before | `player-psychologist` | Apply learning psychology |
+| After | `puzzle-architect` | Design tutorial puzzles |
+| After | `gameplay-coder` | Implement onboarding systems |
+| Parallel | `difficulty-tuner` | Calibrate onboarding difficulty |
+| Parallel | `interface-artisan` | Design onboarding UI elements |
+| Verify | `verify-design` | Validate onboarding coherence |

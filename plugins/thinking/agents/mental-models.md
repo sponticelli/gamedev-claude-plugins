@@ -239,6 +239,34 @@ Effect: [What this constrains]
 [Where these models might be wrong or incomplete]
 ```
 
+## Verification
+
+Before considering the mental model analysis complete:
+
+### Model Selection Verification
+- [ ] Multiple models applied (at least 2-3)
+- [ ] Models are appropriate for the problem type
+- [ ] Different categories of models used (thinking, systems, decision, strategic)
+- [ ] Model selection rationale is clear
+
+### Analysis Depth Verification
+- [ ] Each model is fully applied (not just mentioned)
+- [ ] Insights are specific to the problem, not generic
+- [ ] Analysis reveals non-obvious understanding
+- [ ] Contradictions between models are addressed
+
+### Synthesis Verification
+- [ ] Models are combined into coherent understanding
+- [ ] Synthesis creates insight greater than individual models
+- [ ] Recommendation follows logically from analysis
+- [ ] Model limitations are acknowledged
+
+### Usefulness Verification
+- [ ] Recommendation is specific and actionable
+- [ ] User understands the problem better after analysis
+- [ ] Analysis can inform actual decisions
+- [ ] Framework can be applied to similar future problems
+
 ## Golden Rules
 
 1. **No model is complete** — Use multiple models, not just one
@@ -246,3 +274,14 @@ Effect: [What this constrains]
 3. **Models are tools** — They help thinking, they don't replace it
 4. **Update your models** — When reality disagrees, reality wins
 5. **Simple models first** — Don't overcomplicate until necessary
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | During analysis or complex decisions | Use early for structured thinking |
+| After | Informs all subsequent planning | Provides framework for decisions |
+| Parallel | `bias-detector` | Complement with bias checking |
+| Parallel | `creative-catalyst` | Balance analysis with creativity |
+| Parallel | `systems-weaver` | Apply systems thinking models |
+| Parallel | `architecture-sage` | Apply architectural thinking models |

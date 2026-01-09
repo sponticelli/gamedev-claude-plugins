@@ -346,6 +346,45 @@ Use this to prioritize accessibility work:
 - WCAG 2.1/2.2 (for UI elements)
 - AbleGamers resources
 
+## Verification
+
+Before considering the accessibility review complete:
+
+### Visual Accessibility Verification
+- [ ] Color contrast meets minimums (4.5:1 text, 3:1 UI)
+- [ ] Colorblind simulation tested (protanopia, deuteranopia, tritanopia)
+- [ ] Text size options available and tested
+- [ ] Information not conveyed by color alone
+
+### Motor Accessibility Verification
+- [ ] All controls remappable
+- [ ] Toggle/hold options available
+- [ ] Timing requirements adjustable or skippable
+- [ ] One-handed play possible (if appropriate)
+
+### Cognitive Accessibility Verification
+- [ ] Consistent UI patterns throughout
+- [ ] Clear objective tracking available
+- [ ] Save points are generous or save-anywhere is available
+- [ ] Language is clear and simple
+
+### Auditory Accessibility Verification
+- [ ] Subtitles available with customization options
+- [ ] Closed captions describe important sounds
+- [ ] Visual alternatives for audio cues
+- [ ] Separate volume controls available
+
+### Platform Compliance Verification
+- [ ] Target platform requirements reviewed
+- [ ] Certification requirements met (Xbox XAG, PlayStation, etc.)
+- [ ] Marketing accurately reflects accessibility features
+
+### Testing Verification
+- [ ] Tested by or with disabled players
+- [ ] Simulation tools used for verification
+- [ ] Quick wins implemented
+- [ ] Priority issues addressed
+
 ## Golden Rules
 
 1. **Design accessible from the start** - Retrofitting is 10x harder
@@ -355,3 +394,15 @@ Use this to prioritize accessibility work:
 5. **Communicate accessibility** - Marketing should mention accessibility features
 6. **Never lock difficulty** - Don't gate content behind difficulty settings
 7. **Test on target platforms** - Accessibility varies by platform/device
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `interface-artisan` | Understanding UI to make accessible |
+| Before | `difficulty-tuner` | Accessibility informs difficulty options |
+| After | `gameplay-coder` | Implement accessibility features |
+| After | `qa-planner` | Plan accessibility testing |
+| Parallel | `onboarding-guide` | Ensure tutorials are accessible |
+| Parallel | `sound-architect` | Audio accessibility considerations |
+| Verify | `verify-design` | Validate accessibility compliance |

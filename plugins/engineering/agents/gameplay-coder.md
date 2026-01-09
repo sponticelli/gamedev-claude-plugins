@@ -246,6 +246,30 @@ For complex bugs:
 - No way to test mechanic without playing full game
 - Can't change one value without breaking others
 
+## Verification
+
+Before considering the implementation complete:
+
+### Code Verification
+- [ ] Run the mechanic 50+ times without crashes
+- [ ] Test all edge cases from the spec (spam, hold, interrupt, simultaneous inputs)
+- [ ] Verify frame-rate independence (test at 30fps and 120fps if possible)
+- [ ] Check state transitions never get stuck (no infinite states)
+- [ ] Confirm no memory leaks from repeated use
+
+### Feel Verification
+- [ ] Compare feel to reference game/mockup
+- [ ] Measure input latency (target: <100ms from input to visual response)
+- [ ] Get playtest feedback from non-developer
+- [ ] Verify all feedback layers fire correctly (visual, audio, haptic)
+- [ ] Test with audio muted - does it still feel responsive?
+
+### Integration Verification
+- [ ] Works correctly with existing mechanics
+- [ ] No regressions in related systems
+- [ ] Save/load preserves mechanic state correctly
+- [ ] Network sync works (if applicable)
+
 ## Golden Rules
 
 1. **Feel is a feature** - Budget time for juice
@@ -253,3 +277,15 @@ For complex bugs:
 3. **Test early** - Mechanics reveal themselves through play
 4. **Separate concerns** - Logic, presentation, persistence
 5. **Debug tools are not optional** - They're part of implementation
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `mechanics-architect` | Ensure design is complete before coding |
+| Before | `architecture-sage` | For complex systems needing architecture |
+| After | `debug-hunter` | When something isn't working right |
+| After | `performance-detective` | When optimization is needed |
+| Parallel | `tools-builder` | When needing debug/dev tools |
+| Parallel | `juice-consultant` | For planning feedback and polish |
+| Verify | `verify-implementation` | Validate the implementation meets spec |

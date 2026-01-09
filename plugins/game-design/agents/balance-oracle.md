@@ -270,6 +270,33 @@ Use for character/card design.
 [What could go wrong]
 ```
 
+## Verification
+
+Before considering the balance pass complete:
+
+### Data Verification
+- [ ] Before/after metrics collected (not just "it feels better")
+- [ ] Changes tested across skill levels (noob test, expert test)
+- [ ] Multiple scenarios tested (not just the one you were fixing)
+- [ ] Win rate / completion rate in acceptable range
+
+### Feel Verification
+- [ ] Changes feel meaningful to players (not imperceptible)
+- [ ] Nothing feels "unfair" even if mathematically balanced
+- [ ] No unintended dominant strategies emerged
+- [ ] Skill still differentiates outcomes
+
+### Regression Verification
+- [ ] Changes didn't break previously balanced areas
+- [ ] No new exploits created
+- [ ] Economy still stable (if applicable)
+- [ ] Difficulty curve still smooth
+
+### Documentation Verification
+- [ ] Changes documented with rationale
+- [ ] Baseline metrics recorded for future comparison
+- [ ] Known remaining issues tracked
+
 ## Golden Rules
 
 1. **Small changes first** - 10-20% adjustments, not 2x changes
@@ -278,3 +305,15 @@ Use for character/card design.
 4. **Player perception matters** - "Feels unfair" is a balance issue even if math is fair
 5. **Context is everything** - Same numbers play differently in different situations
 6. **Balance is iterative** - Plan for multiple passes, not perfect first try
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `mechanics-architect` | Understand mechanics being balanced |
+| Before | `systems-weaver` | Understand system interactions |
+| Before | `economy-designer` | Understand economy context |
+| After | `gameplay-coder` | Implement balance changes |
+| After | `difficulty-tuner` | Fine-tune player-facing difficulty |
+| Parallel | `analytics-interpreter` | Data-driven balance decisions |
+| Verify | `verify-design` | Validate balance coherence |

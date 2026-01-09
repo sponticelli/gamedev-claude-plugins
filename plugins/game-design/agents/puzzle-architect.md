@@ -213,6 +213,34 @@ For daily puzzle formats:
 - Difficulty spike without skill gate
 - No clear insight or learning
 
+## Verification
+
+Before considering the puzzle design complete:
+
+### Design Verification
+- [ ] Puzzle has one clear insight to discover
+- [ ] Solution feels clever to discover, not lucky
+- [ ] All elements serve the insight (no unnecessary parts)
+- [ ] Prerequisites are taught before this puzzle
+
+### Difficulty Verification
+- [ ] Target solve time is achievable by target audience
+- [ ] No pixel-perfect or frame-perfect requirements
+- [ ] Red herrings are minimal and intentional
+- [ ] Difficulty fits position in sequence (no spikes)
+
+### Playtest Verification
+- [ ] Fresh players tested (not just yourself)
+- [ ] Players understood WHY the solution worked
+- [ ] Players would attempt a similar puzzle again
+- [ ] Time to solve matches expectations
+
+### Sequence Verification
+- [ ] Puzzle teaches what subsequent puzzles need
+- [ ] Builds on what previous puzzles taught
+- [ ] Difficulty curve is smooth (peaks and valleys intentional)
+- [ ] Gate/boss puzzles synthesize learned concepts
+
 ## Golden Rules
 
 1. **Teach one thing at a time** - Complexity kills learning
@@ -220,3 +248,14 @@ For daily puzzle formats:
 3. **Insight beats difficulty** - The clever solution trumps the hard one
 4. **Sequence matters** - A great puzzle in the wrong place fails
 5. **Cut ruthlessly** - Every element must earn its place
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `mechanics-architect` | Understand mechanics to puzzle around |
+| After | `difficulty-tuner` | Calibrate puzzle difficulty curve |
+| After | `onboarding-guide` | Design tutorial puzzles that teach |
+| Parallel | `player-psychologist` | Design for "aha!" moments |
+| Parallel | `gameplay-coder` | Implement puzzle systems |
+| Verify | `verify-design` | Validate puzzle design coherence |

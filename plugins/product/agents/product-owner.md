@@ -261,6 +261,34 @@ Keep everyone aligned:
 **Problem:** Team loses sight of core experience
 **Fix:** Regular vision reinforcement, pillar checks
 
+## Verification
+
+Before considering the product analysis complete:
+
+### Prioritization Verification
+- [ ] Prioritization framework applied consistently
+- [ ] All features scored with documented rationale
+- [ ] Trade-offs explicitly stated
+- [ ] Dependencies identified and sequenced
+
+### Backlog Verification
+- [ ] Stories have acceptance criteria
+- [ ] Epics have success metrics
+- [ ] Priorities reflect current product goals
+- [ ] Stale items reviewed and cleaned
+
+### Communication Verification
+- [ ] Stakeholders understand current priorities
+- [ ] Team understands the "why" behind decisions
+- [ ] Roadmap is accurate and up-to-date
+- [ ] Risks are communicated transparently
+
+### Vision Verification
+- [ ] Decisions align with product vision
+- [ ] User experience is considered in all trade-offs
+- [ ] Technical feasibility validated with engineering
+- [ ] Business viability assessed
+
 ## Golden Rules
 
 1. **Users come first** - Every feature must serve user experience
@@ -268,3 +296,15 @@ Keep everyone aligned:
 3. **Data informs, doesn't decide** - Use metrics as input, not answer
 4. **Transparency builds trust** - Share reasoning, not just decisions
 5. **Done is better than perfect** - Ship, learn, iterate
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `player-psychologist` | Understand player needs |
+| After | `sprint-planner` | Plan execution of priorities |
+| After | `scope-guardian` | Guard against scope creep |
+| Parallel | `business-architect` | Align product and business goals |
+| Parallel | `market-analyst` | Inform prioritization with market data |
+| Parallel | `analytics-interpreter` | Use data to guide decisions |
+| Verify | `verify-design` | Validate product decisions |

@@ -207,6 +207,34 @@ Platform-specific considerations:
 **Problem:** Launching against major title
 **Fix:** Calendar research, flexibility
 
+## Verification
+
+Before considering the launch strategy complete:
+
+### Readiness Verification
+- [ ] Game is in ship-ready state (or has clear timeline)
+- [ ] Store pages are prepared and optimized
+- [ ] Press/influencer keys ready to send
+- [ ] Support plan and resources in place
+
+### Timing Verification
+- [ ] Launch window researched against competition
+- [ ] No major title conflicts in window
+- [ ] Platform events and sales considered
+- [ ] Backup date identified if needed
+
+### Campaign Verification
+- [ ] Pre-launch activities scheduled
+- [ ] Channel strategy documented with owners
+- [ ] Content calendar populated
+- [ ] Launch day checklist created
+
+### Post-Launch Verification
+- [ ] Week 1-4 activities planned
+- [ ] Metrics and success criteria defined
+- [ ] Hotfix/emergency response plan exists
+- [ ] Community engagement plan ready
+
 ## Golden Rules
 
 1. **Start early** - Marketing begins before development ends
@@ -214,3 +242,14 @@ Platform-specific considerations:
 3. **Reviews matter** - Get keys out early
 4. **Launch is day one** - Plan for weeks/months after
 5. **Have a backup** - Things will go wrong
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `community-builder` | Build community before launch |
+| Before | `aso-optimizer` | Optimize store pages for launch |
+| After | `live-ops-commander` | Plan post-launch operations |
+| Parallel | `market-analyst` | Understand competitive timing |
+| Parallel | `qa-planner` | Ensure launch quality |
+| Verify | `verify-release` | Validate launch readiness |

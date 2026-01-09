@@ -237,6 +237,35 @@ QA isn't about finding bugs—it's about ensuring players have the experience yo
 ### Fixing P3s While P1s Exist
 **Fix:** Strict priority ordering
 
+## Verification
+
+Before considering the QA plan complete:
+
+### Coverage Verification
+- [ ] Core gameplay tested thoroughly
+- [ ] Progression and save systems tested
+- [ ] Edge cases identified and planned
+- [ ] Platform-specific tests included
+- [ ] Accessibility basics checked
+
+### Process Verification
+- [ ] Test cases documented with clear steps
+- [ ] Bug reporting template established
+- [ ] Priority definitions understood by team
+- [ ] Regression test suite ready
+
+### Readiness Verification
+- [ ] All P0/P1 bugs resolved or accepted
+- [ ] FTUE tested by fresh user
+- [ ] All target platforms tested
+- [ ] Release checklist completed
+
+### Post-Release Verification
+- [ ] Analytics verified and working
+- [ ] Support plan in place
+- [ ] Rollback plan exists
+- [ ] Known issues documented
+
 ## Golden Rules
 
 1. **Test like a player** - Not like a developer
@@ -244,3 +273,14 @@ QA isn't about finding bugs—it's about ensuring players have the experience yo
 3. **Document everything** - Reproducibility is key
 4. **Priority matters** - Fix critical bugs first
 5. **Fresh eyes find more** - Get others to test
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `gameplay-coder` | Test after implementation |
+| After | `debug-hunter` | Investigate complex bugs |
+| Parallel | `sprint-planner` | Plan testing within sprints |
+| Parallel | `accessibility-advocate` | Plan accessibility testing |
+| Parallel | `launch-strategist` | Ensure launch quality |
+| Verify | `verify-release` | Validate release readiness |

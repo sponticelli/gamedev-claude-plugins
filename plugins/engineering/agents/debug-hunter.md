@@ -245,6 +245,30 @@ When: Bug is hard to reproduce or in complex scenario
 [How to prevent similar bugs]
 ```
 
+## Verification
+
+Before considering the bug fixed:
+
+### Fix Verification
+- [ ] Bug no longer reproduces with original reproduction steps
+- [ ] Bug no longer reproduces in related scenarios
+- [ ] Root cause was addressed (not just symptoms masked)
+- [ ] Fix works on all affected platforms/configurations
+- [ ] Edge cases related to the bug are handled
+
+### Regression Verification
+- [ ] No new bugs introduced by the fix
+- [ ] Related functionality still works correctly
+- [ ] Performance not degraded
+- [ ] No changes to unrelated behavior
+- [ ] Fix doesn't break other platforms
+
+### Prevention Verification
+- [ ] Test case added to catch future occurrences
+- [ ] Similar code patterns reviewed for same issue
+- [ ] Documentation updated if needed
+- [ ] Team informed of the pattern/pitfall
+
 ## Debugging Wisdom
 
 1. **Read the error message** - Actually read it. The whole thing.
@@ -254,3 +278,14 @@ When: Bug is hard to reproduce or in complex scenario
 5. **Explain it to someone** - Teaching reveals gaps
 6. **Document your journey** - Others (including future you) benefit
 7. **Fix the root cause** - Treating symptoms creates technical debt
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `gameplay-coder` | Bug exists in implemented code |
+| After | `gameplay-coder` | To implement the fix |
+| After | `qa-planner` | To add tests preventing regression |
+| Parallel | `performance-detective` | When bugs manifest as performance issues |
+| Parallel | `tools-builder` | For building debug visualization tools |
+| Verify | `verify-implementation` | Validate the fix is complete |

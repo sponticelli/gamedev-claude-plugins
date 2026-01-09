@@ -1,7 +1,7 @@
 {
   "name": "scope-guardian",
   "description": "Scope management - tracks features against design pillars, detects scope creep, and protects project focus",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "GameDev Plugins"
   },

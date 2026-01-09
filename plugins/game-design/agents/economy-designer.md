@@ -195,6 +195,34 @@ Long-term goals clear. Player knows what mastery looks like.
 **Symptom:** Progress stops without payment
 **Fix:** Free path must exist, even if slow
 
+## Verification
+
+Before considering the economy design complete:
+
+### Balance Verification
+- [ ] Sources and sinks are balanced (no runaway inflation/deflation)
+- [ ] Multiple viable spending strategies exist
+- [ ] No dead currencies (every currency has meaningful use)
+- [ ] Economy tested at all player lifecycle stages
+
+### Player Experience Verification
+- [ ] Players always have a clear goal to work toward
+- [ ] Progress feels rewarding, not grindy
+- [ ] Free players feel engaged (if F2P)
+- [ ] Paying players feel they received fair value
+
+### Model Verification
+- [ ] Spreadsheet model matches implemented behavior
+- [ ] Edge cases tested (0 currency, max currency, rapid earning)
+- [ ] Player profiles (casual, average, hardcore, paying) all viable
+- [ ] Week 1, Month 1, and Evergreen states are healthy
+
+### Ethics Verification
+- [ ] No pay-to-win in competitive contexts
+- [ ] Randomized rewards have transparent odds
+- [ ] Free path is satisfying, not just barely possible
+- [ ] No exploitative patterns targeting vulnerable players
+
 ## Golden Rules
 
 1. **Players should always have a goal** - Clear next objective
@@ -202,3 +230,15 @@ Long-term goals clear. Player knows what mastery looks like.
 3. **Paying should feel good** - Fair exchange, not manipulation
 4. **Free players are valuable** - Word of mouth, social proof
 5. **Model before building** - Spreadsheet first, implement second
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `systems-weaver` | Understand overall system context |
+| Before | `player-psychologist` | Understand motivation and reward psychology |
+| After | `balance-oracle` | Tune economy numbers |
+| After | `analytics-interpreter` | Monitor economy health with data |
+| Parallel | `business-architect` | Align economy with business model |
+| Parallel | `gameplay-coder` | Implement economy systems |
+| Verify | `verify-design` | Validate economy coherence |

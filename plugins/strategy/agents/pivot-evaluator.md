@@ -211,6 +211,34 @@ What contradicts the hypothesis?
 - Pivoting without changing underlying assumptions
 - Multiple pivots without analyzing the pattern
 
+## Verification
+
+Before considering the pivot analysis complete:
+
+### Assessment Verification
+- [ ] Honest assessment completed (not rationalized)
+- [ ] Evidence for AND against current direction documented
+- [ ] Sunk cost fallacy explicitly checked
+- [ ] Outside perspective applied (what would you tell a friend?)
+
+### Options Verification
+- [ ] All three options analyzed (persevere, pivot, kill)
+- [ ] Best and worst cases mapped for each option
+- [ ] Timeline to clarity identified for each option
+- [ ] Probability of success assessed for each
+
+### Decision Verification
+- [ ] Decision based on evidence, not emotion
+- [ ] Clear reasoning documented
+- [ ] Next steps are concrete and actionable
+- [ ] Failure indicators identified (what would prove decision wrong)
+
+### Follow-Through Verification
+- [ ] If pivoting: new hypothesis clearly stated
+- [ ] If killing: postmortem planned, learnings captured
+- [ ] If persevering: checkpoints for reassessment set
+- [ ] Team/stakeholders aligned on decision
+
 ## Golden Rules
 
 1. **Evidence over emotion** - Data should drive the decision
@@ -218,3 +246,14 @@ What contradicts the hypothesis?
 3. **Better opportunities exist** - This isn't your only chance
 4. **Speed of learning matters** - Fast failures beat slow ones
 5. **Clarity is kindness** - To yourself and your team
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `bias-detector` | Check for biases before deciding |
+| Before | `analytics-interpreter` | Get data to inform decision |
+| After | `market-analyst` | Analyze new direction market |
+| After | `business-architect` | Design model for new direction |
+| Parallel | `mental-models` | Apply decision frameworks |
+| Parallel | `scope-guardian` | Evaluate scope implications |

@@ -7,6 +7,40 @@ description: Structure a project or incident postmortem for learning and improve
 
 Create a structured postmortem document for projects, launches, or incidents.
 
+## Context Gathering
+
+Before creating the postmortem, gather relevant information:
+
+### Check for Project Documentation
+- Look for project plans, timelines, or milestone documents
+- Review README or project overview files
+- Check for existing retrospective notes or feedback
+- Look for any previous postmortems for patterns
+
+### Analyze Event Timeline
+- Check git history to reconstruct sequence of events
+- Look for deployment logs or release notes
+- Review any issue tracker references (GitHub issues, etc.)
+- Identify key dates and decision points
+
+### Identify Stakeholders
+- Who was involved in the project/incident
+- Who was affected by the outcome
+- Who can provide additional context or perspective
+- Who should receive the postmortem findings
+
+### Gather Metrics (if applicable)
+- Look for analytics or monitoring data
+- Check for error logs or crash reports
+- Review any metrics dashboards or reports
+- Note before/after comparisons where possible
+
+Use this context to:
+- Construct an accurate timeline
+- Identify all contributing factors
+- Ground lessons learned in specific evidence
+- Ensure action items address actual root causes
+
 ## Output Format
 
 ```markdown

@@ -219,6 +219,34 @@ Analytics reveals what players do, not why. Good analysis:
 **Problem:** Too much data, no action
 **Fix:** Focus on 3-5 key metrics
 
+## Verification
+
+Before considering the analytics analysis complete:
+
+### Data Verification
+- [ ] Data sources are reliable and recent
+- [ ] Metrics are correctly calculated
+- [ ] Segmentation is appropriate (not just averages)
+- [ ] Benchmarks are relevant and current
+
+### Analysis Verification
+- [ ] Multiple metrics examined (not just one in isolation)
+- [ ] Trends considered, not just point-in-time snapshots
+- [ ] Correlation vs. causation distinguished
+- [ ] Anomalies identified and explained
+
+### Insight Verification
+- [ ] Each insight has "what we see" and "what it means"
+- [ ] Insights are actionable, not just observations
+- [ ] Confidence level stated for each recommendation
+- [ ] Risks and concerns highlighted
+
+### Recommendation Verification
+- [ ] Actions are specific and prioritized
+- [ ] Expected impact is quantified where possible
+- [ ] A/B testing proposed for major decisions
+- [ ] Next steps for further analysis identified
+
 ## Golden Rules
 
 1. **Track less, understand more** - Focus on key metrics
@@ -226,3 +254,14 @@ Analytics reveals what players do, not why. Good analysis:
 3. **Context matters** - Compare to benchmarks
 4. **Test before deciding** - Data suggests, tests confirm
 5. **Action orientation** - Every analysis needs "so what?"
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | During data collection | Set up tracking first |
+| After | `product-owner` | Inform prioritization with data |
+| After | `balance-oracle` | Data-driven balance decisions |
+| Parallel | `live-ops-commander` | Measure live ops effectiveness |
+| Parallel | `pivot-evaluator` | Provide evidence for decisions |
+| Parallel | `bias-detector` | Ensure analysis isn't biased |

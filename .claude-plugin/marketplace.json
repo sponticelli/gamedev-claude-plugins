@@ -2,7 +2,7 @@
   "name": "gamedev-claude-plugins",
   "metadata": {
     "description": "AI-augmented game development toolkit - agents and commands for every discipline in game creation, from ideation to launch",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "pluginRoot": "./plugins"
   },
   "owner": {

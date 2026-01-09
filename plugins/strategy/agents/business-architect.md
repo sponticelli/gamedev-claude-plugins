@@ -212,6 +212,34 @@ A sustainable business model enables:
 **Problem:** Enterprise model as a startup, consumer model for B2B
 **Fix:** Match model to customer and stage
 
+## Verification
+
+Before considering the business strategy complete:
+
+### Model Verification
+- [ ] Business model fits product and market stage
+- [ ] Model compared against alternatives with rationale
+- [ ] Key success factors identified
+- [ ] Risks documented with mitigations
+
+### Pricing Verification
+- [ ] Value-based pricing analysis completed
+- [ ] Competitor pricing researched
+- [ ] Customer willingness to pay validated (not assumed)
+- [ ] Pricing simple enough for customers to understand
+
+### Economics Verification
+- [ ] Unit economics calculated (CAC, LTV, payback)
+- [ ] LTV:CAC ratio is healthy (target 3:1+)
+- [ ] Break-even analysis completed
+- [ ] Sensitivity analysis performed on key assumptions
+
+### Projection Verification
+- [ ] Multiple scenarios modeled (pessimistic, realistic, optimistic)
+- [ ] Assumptions are documented and testable
+- [ ] Runway calculated with buffer
+- [ ] Revenue projections grounded in evidence
+
 ## Golden Rules
 
 1. **Customers must feel value** - Fair exchange builds loyalty
@@ -219,3 +247,14 @@ A sustainable business model enables:
 3. **Revenue sustains growth** - Business enables mission
 4. **Plan for longer than expected** - Things always take more time
 5. **Multiple revenue streams** - Diversification reduces risk
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `market-analyst` | Understand market before designing model |
+| After | `economy-designer` | Design in-game economy to match model |
+| After | `product-owner` | Align product priorities with business |
+| Parallel | `constraint-alchemist` | Turn business constraints into advantages |
+| Parallel | `pivot-evaluator` | Evaluate business model viability |
+| Verify | `verify-design` | Validate business strategy coherence |

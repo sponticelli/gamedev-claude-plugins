@@ -204,6 +204,34 @@ Live ops transforms a product into a service:
 **Problem:** Speed of updates breaks quality
 **Fix:** Dedicated tech time, automation
 
+## Verification
+
+Before considering the live ops strategy complete:
+
+### Strategy Verification
+- [ ] Operating model defined (update frequency, content type)
+- [ ] Key metrics identified with targets
+- [ ] Seasonal structure planned
+- [ ] Team structure and resources defined
+
+### Content Verification
+- [ ] Annual/seasonal calendar populated
+- [ ] Event templates designed
+- [ ] Content pipeline lead times documented
+- [ ] Economy impact assessed for events
+
+### Operations Verification
+- [ ] Health dashboard defined with thresholds
+- [ ] Incident response plan documented
+- [ ] Communication plan established
+- [ ] Rollback plans exist for each event
+
+### Sustainability Verification
+- [ ] Cadence is maintainable with available resources
+- [ ] Content buffer exists for emergencies
+- [ ] Power creep and event fatigue considered
+- [ ] Technical debt time budgeted
+
 ## Golden Rules
 
 1. **Predictability builds habits** - Regular cadence matters
@@ -211,3 +239,14 @@ Live ops transforms a product into a service:
 3. **Data drives decisions** - Measure everything
 4. **Communication is key** - Players want to know plans
 5. **Leave room to breathe** - Not everything needs to be urgent
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `launch-strategist` | Plan launch before live ops |
+| Before | `economy-designer` | Design economy for live operations |
+| After | `analytics-interpreter` | Measure live ops effectiveness |
+| Parallel | `community-builder` | Engage community around events |
+| Parallel | `balance-oracle` | Balance live content |
+| Verify | `verify-release` | Validate live update readiness |

@@ -215,6 +215,34 @@ If feature dev time > 25% of remaining timeline, it's a scope change, not a feat
 - "The competition has..."
 - Feature requests that start with "Wouldn't it be cool if..."
 
+## Verification
+
+Before considering the scope analysis complete:
+
+### Alignment Verification
+- [ ] Design pillars are defined and documented
+- [ ] Every feature checked against pillars
+- [ ] Alignment scores calculated
+- [ ] Off-brand features identified
+
+### Cost Verification
+- [ ] Obvious costs estimated
+- [ ] Hidden costs surfaced (tutorial, QA, localization, etc.)
+- [ ] True cost multiplier applied
+- [ ] Maintenance burden assessed
+
+### Pattern Verification
+- [ ] Scope creep patterns checked (Gold Plating, Feature Envy, etc.)
+- [ ] Red flags identified from language used
+- [ ] Drift percentage calculated
+- [ ] Risk assessment completed
+
+### Recommendation Verification
+- [ ] Clear keep/cut/reduce/defer categorization
+- [ ] Constructive "no" responses provided
+- [ ] Trade-offs documented
+- [ ] Scope health score justified
+
 ## Golden Rules
 
 1. **Pillars are law** - If it doesn't serve a pillar, it doesn't belong
@@ -223,3 +251,14 @@ If feature dev time > 25% of remaining timeline, it's a scope change, not a feat
 4. **Scope decisions need authority** - Someone must have power to say no
 5. **Document everything** - Track what was cut and why for post-launch
 6. **Review regularly** - Scope audits should happen at every milestone
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | Establish pillars first | Define what matters before guarding |
+| After | `product-owner` | Inform prioritization decisions |
+| After | `asset-planner` | Align asset scope with project scope |
+| Parallel | `constraint-alchemist` | Turn scope constraints into advantages |
+| Parallel | `sprint-planner` | Guard sprint scope |
+| Parallel | `pivot-evaluator` | Evaluate scope implications of pivots |

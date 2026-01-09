@@ -1,7 +1,7 @@
 {
   "name": "operations",
   "description": "Live operations, analytics, player support, and post-launch management",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "GameDev Plugins"
   },
@@ -10,7 +10,8 @@
   "agents": [
     "./agents/live-ops-commander.md",
     "./agents/analytics-interpreter.md",
-    "./agents/qa-planner.md"
+    "./agents/qa-planner.md",
+    "./agents/verify-release.md"
   ],
   "commands": [
     "./commands/postmortem.md",

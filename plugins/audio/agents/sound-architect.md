@@ -207,6 +207,34 @@ Sweetener: [Impact/emphasis elements]
 **Problem:** Audio hurts frame rate
 **Fix:** Voice limiting, pooling, LOD system
 
+## Verification
+
+Before considering the audio direction complete:
+
+### Identity Verification
+- [ ] Sonic vision is clear and communicable
+- [ ] Audio pillars defined and consistent
+- [ ] Reference audio collected and analyzed
+- [ ] Anti-references identified (what to avoid)
+
+### Sound Design Verification
+- [ ] Palette defined for all major categories
+- [ ] Frequency strategy documented (low/mid/high usage)
+- [ ] Variation strategy defined for frequent sounds
+- [ ] Layering philosophy established
+
+### Technical Verification
+- [ ] Middleware decision made with clear rationale
+- [ ] Memory budget allocated across categories
+- [ ] Streaming strategy defined
+- [ ] Event triggering approach documented
+
+### Implementation Verification
+- [ ] Priority order established for asset creation
+- [ ] Mix strategy defined for competing sounds
+- [ ] Spatial audio approach documented
+- [ ] Performance considerations addressed
+
 ## Golden Rules
 
 1. **Feedback is sacred** - Player actions need response
@@ -214,3 +242,15 @@ Sweetener: [Impact/emphasis elements]
 3. **Variation prevents fatigue** - Randomize frequently heard sounds
 4. **Mix in context** - Test in-game, not in DAW
 5. **Silence is a tool** - Don't fill every moment
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `creative-catalyst` | Brainstorm sonic identity options |
+| After | `music-director` | Coordinate with music direction |
+| After | `gameplay-coder` | Implement audio systems |
+| Parallel | `art-director` | Align audio and visual identity |
+| Parallel | `accessibility-advocate` | Audio accessibility considerations |
+| Parallel | `juice-consultant` | Coordinate audio feedback with polish |
+| Verify | `verify-design` | Validate audio design coherence |

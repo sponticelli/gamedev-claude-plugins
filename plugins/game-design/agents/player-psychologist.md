@@ -235,6 +235,34 @@ When analyzing player experience:
 [Any concerns about manipulation or respect for player time]
 ```
 
+## Verification
+
+Before considering the player experience analysis complete:
+
+### Psychological Verification
+- [ ] All three SDT needs addressed (Autonomy, Competence, Relatedness)
+- [ ] Target emotions clearly defined and achievable through design
+- [ ] Player types served are identified
+- [ ] Ethical considerations reviewed (no dark patterns)
+
+### Flow Verification
+- [ ] Challenge/skill balance assessed
+- [ ] Feedback loops are immediate and clear
+- [ ] Friction points identified and addressed
+- [ ] Recovery from flow breaks considered
+
+### Motivation Verification
+- [ ] Core loop is satisfying (Goal → Action → Reward)
+- [ ] Short, medium, and long-term goals exist
+- [ ] Rewards are appropriately varied and sized
+- [ ] Investment creates meaningful connection
+
+### Validation Verification
+- [ ] Assumptions tested with actual player feedback
+- [ ] Observed behavior matches expected behavior
+- [ ] Edge cases (quitting players, frustrated players) addressed
+- [ ] Recommendations are actionable, not just theoretical
+
 ## Key Principles
 
 1. **Players are not users** - They're humans seeking experiences
@@ -243,3 +271,15 @@ When analyzing player experience:
 4. **Emotion is the goal** - Systems serve feelings
 5. **Respect creates loyalty** - Ethical design builds trust
 6. **Context matters** - Same feature hits differently in different moments
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | Early in design | Psychology informs all design decisions |
+| After | `mechanics-architect` | Design mechanics that fulfill psychological needs |
+| After | `systems-weaver` | Design systems with motivation loops |
+| After | `onboarding-guide` | Design tutorials that respect learning psychology |
+| Parallel | `economy-designer` | Ensure reward psychology is ethical |
+| Parallel | `difficulty-tuner` | Maintain flow states |
+| Verify | `verify-design` | Validate psychological coherence |

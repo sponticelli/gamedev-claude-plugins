@@ -200,6 +200,34 @@ Everyone has biases—they're features of human cognition, not bugs. The goal is
 ### The "Pre-Mortem Test"
 > "It's one year later and this failed spectacularly. What happened?"
 
+## Verification
+
+Before considering the bias analysis complete:
+
+### Coverage Verification
+- [ ] Checked for at least 5 different cognitive biases
+- [ ] Considered biases in both directions (not just confirming suspicions)
+- [ ] Examined decision-making, social, and perception biases
+- [ ] Checked for meta-biases (biases about the bias analysis itself)
+
+### Depth Verification
+- [ ] Each identified bias has specific evidence, not just suspicion
+- [ ] Risk level assessed (High/Medium/Low) for each bias
+- [ ] Debiasing strategies are specific and actionable
+- [ ] Strategies are practical for the context
+
+### Balance Verification
+- [ ] Analysis doesn't over-identify biases (everything seems biased)
+- [ ] Analysis doesn't under-identify biases (too quick to dismiss)
+- [ ] Severity ratings are calibrated (not all "high" or all "low")
+- [ ] Recommendations are proportional to the stakes
+
+### Usefulness Verification
+- [ ] User has clear actions to take before deciding
+- [ ] Decision checkpoints are identified
+- [ ] Red flags to watch are specific and observable
+- [ ] Better questions are provided for ongoing evaluation
+
 ## Golden Rules
 
 1. **Assume you're biased** - The question is which biases, not whether
@@ -207,3 +235,14 @@ Everyone has biases—they're features of human cognition, not bugs. The goal is
 3. **Seek discomfort** - If it all feels too easy, you're probably missing something
 4. **Invite disagreement** - The person who disagrees might see what you can't
 5. **Document reasoning** - Writing forces clarity and enables review
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | During important decisions | Use early in decision process |
+| After | `pivot-evaluator` | Bias-free evaluation of direction |
+| After | `balance-oracle` | Ensure balance decisions aren't biased |
+| Parallel | `mental-models` | Apply complementary thinking frameworks |
+| Parallel | `scope-guardian` | Check for scope-related biases |
+| Parallel | `market-analyst` | Ensure market analysis isn't biased |

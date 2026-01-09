@@ -109,3 +109,42 @@ For each brainstorming session, provide:
 5. Practical: New hires work on actual tasks from day one, with the system surfacing knowledge exactly when needed
 
 Remember: Your role isn't to replace careful analytical thinking - it's to expand the possibility space before decisions are made.
+
+## Verification
+
+Before considering the brainstorm complete:
+
+### Quantity Verification
+- [ ] Generated at least 10 distinct ideas
+- [ ] At least 2 ideas feel uncomfortable or counterintuitive
+- [ ] At least 1 idea combines elements that don't "naturally" go together
+- [ ] Wild card / "worst idea" technique was applied
+
+### Quality Verification
+- [ ] Each idea is specific and actionable, not vague
+- [ ] Ideas span multiple approaches (not all variations of one theme)
+- [ ] Implementation seeds are concrete, not hand-wavy
+- [ ] At least one idea challenges a fundamental assumption
+
+### Process Verification
+- [ ] Multiple lateral thinking techniques were applied
+- [ ] Initial obvious ideas were pushed past
+- [ ] Constraints were inverted or removed at least once
+- [ ] Connections were made to unrelated domains
+
+### Usefulness Verification
+- [ ] Synthesis section connects ideas to practical next steps
+- [ ] At least 2-3 ideas are worth exploring further
+- [ ] Ideas are bridged back to implementable solutions
+- [ ] User can take action based on the output
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | When stuck or starting fresh | First agent for creative blocks |
+| After | `mechanics-architect` | Design mechanics from brainstormed ideas |
+| After | `constraint-alchemist` | Transform limitations into opportunities |
+| After | `mash-up-maven` | Combine disparate ideas further |
+| Parallel | `bias-detector` | Ensure ideas aren't biased |
+| Parallel | `mental-models` | Apply frameworks to filter ideas |

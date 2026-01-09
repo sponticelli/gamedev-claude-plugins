@@ -209,3 +209,38 @@ When a mechanic isn't working, ask:
 ```
 
 Remember: Mechanics are discovered through iteration, not designed in documents. Your role is to create the clearest possible starting point and identify what needs testing.
+
+## Verification
+
+Before considering the mechanic design complete:
+
+### Design Verification
+- [ ] **Playtest mentally** - Walk through 10 consecutive uses. Does it stay engaging?
+- [ ] **Edge case sweep** - What happens at 0, 1, max values? Spammed input? Interrupted action?
+- [ ] **Integration check** - Does it conflict with or duplicate existing mechanics?
+- [ ] **Explain test** - Can you explain it to a non-gamer in under 30 seconds?
+- [ ] All three pillars addressed (Clarity, Depth, Feel)
+
+### Depth Verification
+- [ ] Skill ceiling exists (experts can outperform beginners meaningfully)
+- [ ] Multiple strategic uses identified (not just one optimal approach)
+- [ ] Interaction with at least one other mechanic creates interesting outcomes
+- [ ] Room for player expression or style
+
+### Implementation Readiness
+- [ ] Clear specification exists for programmer to implement
+- [ ] Feedback requirements defined (visual, audio, haptic)
+- [ ] Tuning parameters identified for iteration
+- [ ] Prototype plan exists for testing the feel
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `creative-catalyst` | When brainstorming mechanic ideas |
+| Before | `player-psychologist` | For understanding player motivation behind mechanics |
+| After | `systems-weaver` | When connecting mechanics into larger systems |
+| After | `gameplay-coder` | When implementing the mechanic |
+| After | `balance-oracle` | When tuning mechanic numbers |
+| Parallel | `juice-consultant` | For planning feedback and polish |
+| Verify | `verify-design` | Validate design coherence |

@@ -135,3 +135,42 @@ When someone presents constraints:
 | No marketing budget | Can't reach people | Forces remarkable, shareable work |
 
 Remember: The work we remember isn't usually what had the biggest budgets - it's what had the clearest vision. Constraints clarify vision.
+
+## Verification
+
+Before considering the constraint analysis complete:
+
+### Coverage Verification
+- [ ] All constraints identified (technical, temporal, resource, creative, market)
+- [ ] Hidden constraints surfaced (not just the obvious ones)
+- [ ] Each constraint has severity and type assessed
+- [ ] No constraints dismissed without exploring their hidden opportunity
+
+### Transformation Verification
+- [ ] Each constraint has a reframe ("We can't" → "We get to")
+- [ ] Precedents identified for similar constraint transformations
+- [ ] Concrete actions specified (not just philosophy)
+- [ ] Identity potential explored (how constraint becomes selling point)
+
+### Opportunity Verification
+- [ ] Combined opportunity identified (how constraints work together)
+- [ ] Unfair advantage articulated (what competitors can't do)
+- [ ] Unique identity emerges from constraint combination
+- [ ] Transformation is believable and achievable
+
+### Actionability Verification
+- [ ] Specific next steps identified
+- [ ] Changes can be implemented with current resources
+- [ ] User feels empowered, not just validated
+- [ ] Output is usable for planning and communication
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `creative-catalyst` | Generate ideas before constraint analysis |
+| After | `mechanics-architect` | Design mechanics within transformed constraints |
+| After | `business-architect` | Align constraints with business model |
+| Parallel | `mash-up-maven` | Find novel combinations from constraints |
+| Parallel | `scope-guardian` | Ensure constraints align with scope |
+| Parallel | `mental-models` | Apply frameworks to constraint analysis |

@@ -225,6 +225,34 @@ Brief → [Concept] → [Modeling] → [Texturing] → [Rigging] → [Animation]
 **Problem:** Inconsistent quality across assets
 **Fix:** Clear specs, regular reviews, style guides
 
+## Verification
+
+Before considering the asset plan complete:
+
+### Scope Verification
+- [ ] All required assets identified and listed
+- [ ] Reuse analysis completed (existing assets, kit-bash potential)
+- [ ] Priorities assigned to every asset
+- [ ] Dependencies identified (what blocks what)
+
+### Technical Verification
+- [ ] Platform requirements defined (poly budgets, texture sizes)
+- [ ] File formats specified for all asset types
+- [ ] LOD requirements identified
+- [ ] Memory budgets considered
+
+### Pipeline Verification
+- [ ] Workflow stages defined with inputs/outputs
+- [ ] Review gates established with clear criteria
+- [ ] Naming conventions documented
+- [ ] Folder structure defined
+
+### Schedule Verification
+- [ ] Milestones aligned with asset requirements
+- [ ] Buffer time added for reviews and revisions
+- [ ] Critical path identified
+- [ ] Risks and mitigations documented
+
 ## Golden Rules
 
 1. **Count everything** - Nothing is free to produce
@@ -232,3 +260,14 @@ Brief → [Concept] → [Modeling] → [Texturing] → [Rigging] → [Animation]
 3. **Define done** - Clear acceptance criteria
 4. **Track reality** - Actual time informs future estimates
 5. **Cut early** - Better to cut scope than quality
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `art-director` | Understand style before planning production |
+| Before | `scope-guardian` | Align asset scope with project scope |
+| After | `sprint-planner` | Integrate art schedule into sprints |
+| Parallel | `product-owner` | Prioritize asset production |
+| Parallel | `qa-planner` | Plan asset quality checks |
+| Verify | `verify-release` | Validate assets are complete |

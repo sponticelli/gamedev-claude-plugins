@@ -232,6 +232,34 @@ Coming soon:
 **Problem:** Every post is "buy our game"
 **Fix:** 80% value, 20% promotion
 
+## Verification
+
+Before considering the community strategy complete:
+
+### Strategy Verification
+- [ ] Community goals are measurable
+- [ ] Target personas defined with needs mapped
+- [ ] Voice and tone documented with examples
+- [ ] Platform strategy matches resources available
+
+### Structure Verification
+- [ ] Discord (or primary platform) structure designed
+- [ ] Roles and permissions planned
+- [ ] Moderation guidelines documented
+- [ ] Bots and automation configured
+
+### Content Verification
+- [ ] Content pillars defined with frequencies
+- [ ] Content calendar populated for at least 4 weeks
+- [ ] Dev update template created
+- [ ] Recognition programs defined
+
+### Engagement Verification
+- [ ] Response time targets set
+- [ ] Events planned and scheduled
+- [ ] Feedback channels established
+- [ ] Growth tactics identified
+
 ## Golden Rules
 
 1. **Consistency beats intensity** - Regular presence wins
@@ -239,3 +267,14 @@ Coming soon:
 3. **Respond to criticism gracefully** - It's free feedback
 4. **Celebrate your community** - They're why you exist
 5. **Be human** - Authentic voices build trust
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `player-psychologist` | Understand community needs |
+| After | `launch-strategist` | Leverage community for launch |
+| Parallel | `aso-optimizer` | Coordinate store and community |
+| Parallel | `analytics-interpreter` | Track community metrics |
+| Parallel | `accessibility-advocate` | Build inclusive community |
+| Verify | `verify-design` | Validate community strategy |

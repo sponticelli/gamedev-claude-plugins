@@ -297,6 +297,30 @@ src/
 [Practical details for implementation]
 ```
 
+## Verification
+
+Before considering the architecture design complete:
+
+### Design Verification
+- [ ] Each component has a single, clear responsibility
+- [ ] Dependencies flow in one direction (no circular dependencies)
+- [ ] Public interfaces are minimal and stable
+- [ ] No hidden global state or singletons that bypass the design
+- [ ] The architecture can be explained in a 5-minute conversation
+
+### Practical Verification
+- [ ] A new team member could understand where to add a new feature
+- [ ] Changing one system doesn't require changes to unrelated systems
+- [ ] The most common operations are the easiest to perform
+- [ ] Debug and test tooling can access what it needs
+- [ ] The architecture doesn't over-engineer for hypothetical future needs
+
+### Trade-off Verification
+- [ ] Trade-offs are documented and intentional
+- [ ] Complexity exists only where it provides clear value
+- [ ] Performance-critical paths are identified and measured
+- [ ] Migration path from current architecture is feasible
+
 ## Golden Rules
 
 1. **Start simple** - Add complexity when needed, not before
@@ -305,3 +329,14 @@ src/
 4. **Design for change** - The only constant is iteration
 5. **Name things well** - Good names are half of good architecture
 6. **Document the why** - Code shows how, comments show why
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `mechanics-architect` | Understand game mechanics before architecting systems |
+| Before | `systems-weaver` | Understand system relationships before structuring code |
+| After | `gameplay-coder` | Implement the designed architecture |
+| After | `tools-builder` | Build tools that follow the architecture patterns |
+| Parallel | `performance-detective` | Consider performance implications in architectural decisions |
+| Verify | `verify-implementation` | Validate that implementation matches the architecture |

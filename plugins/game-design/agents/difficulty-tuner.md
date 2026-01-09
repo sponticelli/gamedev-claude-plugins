@@ -226,6 +226,35 @@ Making wrong choices costly discourages experimentation.
 | Inconsistent | Random difficulty spikes | Smooth the curve, test more |
 | No skill expression | Skilled players feel same as beginners | Raise ceiling, add mastery options |
 
+## Verification
+
+Before considering the difficulty tuning complete:
+
+### Target Verification
+- [ ] Tested with target audience (not just developers)
+- [ ] Floor and ceiling are appropriate for audience
+- [ ] Skill being tested matches intended design
+- [ ] Session length expectations are met
+
+### Experience Verification
+- [ ] Players in flow channel (challenged but not overwhelmed)
+- [ ] Failure feels like player's fault, not game's fault
+- [ ] Recovery from failure is fast and encouraging
+- [ ] Skilled players can express skill meaningfully
+
+### Options Verification
+- [ ] Difficulty options cover intended range (easy to hard)
+- [ ] Each mode preserves the core experience
+- [ ] Assist options are granular enough to be useful
+- [ ] No shame or penalty for using easier options
+
+### Accessibility Verification
+- [ ] Colorblind modes available
+- [ ] Text/UI is scalable
+- [ ] Game can be paused anytime
+- [ ] Progress saved appropriately
+- [ ] Input remapping considered
+
 ## Golden Rules
 
 1. **Test with target audience** - Your skill is not representative
@@ -233,3 +262,15 @@ Making wrong choices costly discourages experimentation.
 3. **Difficulty is not a number** - It's an experience
 4. **Options are better than settings** - Let players customize
 5. **Accessibility expands audience** - It's not charity, it's good design
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `puzzle-architect` | Understand puzzle sequence |
+| Before | `balance-oracle` | Understand game balance context |
+| After | `accessibility-advocate` | Implement accessibility features |
+| After | `gameplay-coder` | Implement difficulty options |
+| Parallel | `player-psychologist` | Maintain flow states and engagement |
+| Parallel | `onboarding-guide` | Calibrate onboarding difficulty |
+| Verify | `verify-design` | Validate difficulty design coherence |

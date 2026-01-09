@@ -7,6 +7,40 @@ description: Generate a structured game metrics report template or analyze provi
 
 Create or analyze a game metrics report.
 
+## Context Gathering
+
+Before generating or analyzing metrics, understand the context:
+
+### Identify Game Context
+- Game type (mobile, PC, console, web)
+- Business model (F2P, premium, subscription)
+- Current lifecycle stage (soft launch, live, mature)
+- Target audience and market
+
+### Check for Existing Data
+- Look for analytics configuration files
+- Check for existing reports or dashboards
+- Review previous metrics reports if available
+- Identify key events being tracked
+
+### Understand Benchmarks
+- Genre-appropriate benchmarks
+- Historical performance baselines
+- Competitive context if known
+- Target KPIs if established
+
+### Identify Reporting Needs
+- Who will read this report (team, stakeholders, investors)
+- What decisions need to be informed
+- Required reporting cadence
+- Focus areas or concerns
+
+Use this context to:
+- Compare against appropriate benchmarks
+- Focus on metrics that matter for this game type
+- Tailor recommendations to the business model
+- Prioritize insights based on stakeholder needs
+
 ## Output Format
 
 ```markdown

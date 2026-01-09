@@ -1,7 +1,7 @@
 {
   "name": "accessibility",
   "description": "Game accessibility - ensuring games are playable by everyone through visual, motor, cognitive, and auditory accommodations",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "GameDev Plugins"
   },

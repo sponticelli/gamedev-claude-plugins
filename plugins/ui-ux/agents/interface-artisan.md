@@ -237,6 +237,34 @@ In-Game (Pause)
 **Symptom:** Some players can't use the UI
 **Fix:** Accessibility audit and options
 
+## Verification
+
+Before considering the UI design complete:
+
+### Usability Verification
+- [ ] Navigation to common actions minimized (fewer clicks = better)
+- [ ] Controller and keyboard navigation tested
+- [ ] Consistent patterns used across all screens
+- [ ] Back/cancel paths always available
+
+### Feedback Verification
+- [ ] Every user action has visible/audible acknowledgment
+- [ ] Error states are clear and helpful
+- [ ] Progress and state changes are communicated
+- [ ] Hover/focus/selected states are distinguishable
+
+### Accessibility Verification
+- [ ] Color contrast meets minimums (4.5:1 text, 3:1 UI)
+- [ ] UI can be scaled without breaking
+- [ ] Information not conveyed by color alone
+- [ ] Touch targets large enough for motor accessibility
+
+### User Testing Verification
+- [ ] Tested with fresh players (not just developers)
+- [ ] Players could find common functions without help
+- [ ] No confusion about interactive vs. non-interactive elements
+- [ ] Players understood feedback and state changes
+
 ## Golden Rules
 
 1. **Players want to play, not navigate** - Every menu is friction
@@ -244,3 +272,15 @@ In-Game (Pause)
 3. **Feedback is kindness** - Acknowledgment reduces frustration
 4. **Consistency is usability** - Patterns reduce learning
 5. **Test with fresh eyes** - What's obvious to you isn't to players
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `mechanics-architect` | Understand mechanics to design UI around |
+| Before | `player-psychologist` | Understand player needs and expectations |
+| After | `gameplay-coder` | Implement the UI design |
+| Parallel | `accessibility-advocate` | Ensure UI is accessible to all players |
+| Parallel | `onboarding-guide` | Coordinate onboarding UI elements |
+| Parallel | `art-director` | Align UI with visual style |
+| Verify | `verify-design` | Validate UI design coherence |

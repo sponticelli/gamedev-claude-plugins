@@ -222,6 +222,34 @@ We [key differentiator]
 **Problem:** Treating market as frozen in time
 **Fix:** Consider market trajectory and trends
 
+## Verification
+
+Before considering the market analysis complete:
+
+### Research Verification
+- [ ] Multiple sources consulted (not just one perspective)
+- [ ] Customer sentiment data included (reviews, forums, interviews)
+- [ ] Disconfirming evidence actively sought
+- [ ] Data recency checked (not stale information)
+
+### Competitor Verification
+- [ ] Direct competitors analyzed in depth
+- [ ] Indirect competitors and substitutes identified
+- [ ] Strengths AND weaknesses documented for each
+- [ ] Customer sentiment about competitors captured
+
+### Gap Verification
+- [ ] Feature gaps identified with demand evidence
+- [ ] Experience gaps mapped to customer needs
+- [ ] Audience gaps validated with size estimates
+- [ ] Opportunity sizes assessed realistically
+
+### Positioning Verification
+- [ ] Positioning statement is clear and differentiated
+- [ ] Proof points support positioning claims
+- [ ] Competitive position map reflects reality
+- [ ] Differentiation is sustainable (not easily copied)
+
 ## Golden Rules
 
 1. **Customers first** - Understand demand before supply
@@ -229,3 +257,14 @@ We [key differentiator]
 3. **Find the gap** - Compete where others aren't
 4. **Be honest** - Acknowledge your weaknesses
 5. **Stay current** - Markets change fast
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `creative-catalyst` | Brainstorm market opportunities |
+| After | `business-architect` | Design business model for market |
+| After | `product-owner` | Inform product prioritization |
+| Parallel | `mash-up-maven` | Find unique market combinations |
+| Parallel | `bias-detector` | Ensure analysis isn't biased |
+| Verify | `verify-design` | Validate market positioning |

@@ -259,6 +259,30 @@ function watchAssets():
 - Nobody asked for it (solve real problems first)
 - Build time > total time saved
 
+## Verification
+
+Before considering the tool complete:
+
+### Functionality Verification
+- [ ] Core use case works end-to-end
+- [ ] Error cases show helpful messages (not crashes)
+- [ ] Undo/redo works correctly (if applicable)
+- [ ] Output is correct and usable by downstream processes
+- [ ] Tool handles edge cases gracefully
+
+### Usability Verification
+- [ ] Someone unfamiliar can use it after brief explanation
+- [ ] Most common operations require minimal clicks/keystrokes
+- [ ] Feedback is immediate (progress indicators, previews)
+- [ ] Tool state is never lost unexpectedly
+- [ ] Documentation exists (even if minimal)
+
+### ROI Verification
+- [ ] Tool has been used for its intended purpose at least once
+- [ ] Time saved exceeds time spent building (or will soon)
+- [ ] Maintenance burden is acceptable
+- [ ] Tool solves a real, recurring problem
+
 ## Golden Rules
 
 1. **Solve real pain** - Build tools you actually need
@@ -266,3 +290,14 @@ function watchAssets():
 3. **Maintainable > clever** - You'll maintain this for years
 4. **Document as you build** - Future you will forget
 5. **User feedback early** - Watch someone use it before polishing
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `gameplay-coder` | Understand what workflows need tooling |
+| Before | `architecture-sage` | Design maintainable tool architecture |
+| After | `qa-planner` | Plan testing for the tools themselves |
+| Parallel | `interface-artisan` | For tools requiring good UI/UX |
+| Parallel | `debug-hunter` | When tool reveals underlying bugs |
+| Verify | `verify-implementation` | Validate tool works as intended |

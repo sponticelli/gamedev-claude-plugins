@@ -7,6 +7,34 @@ description: Review and improve store page copy - Steam, itch.io, or other store
 
 Analyze and improve game store page content.
 
+## Context Gathering
+
+Before reviewing the store page, understand the game:
+
+### Check for Game Information
+- Look for GDD, README, or design documents
+- Review any existing marketing materials
+- Check for press kit or media assets
+- Understand the game's core pillars and unique selling points
+
+### Identify Target Context
+- Target platform(s) and their store requirements
+- Target audience demographics
+- Genre conventions and competitors
+- Current development stage
+
+### Review Existing Assets
+- Look for screenshots or promotional images
+- Check for existing trailer or video content
+- Review any press coverage or reviews
+- Note community feedback if available
+
+Use this context to:
+- Ground recommendations in the actual game
+- Suggest copy that matches the game's tone
+- Reference concrete features rather than generics
+- Align with established brand identity
+
 ## Output Format
 
 ```markdown

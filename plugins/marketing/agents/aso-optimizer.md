@@ -215,6 +215,34 @@ Traffic threshold: ~1000 impressions/week minimum for meaningful results
 **Problem:** Same listing since launch
 **Fix:** Refresh seasonally, test continuously
 
+## Verification
+
+Before considering the ASO analysis complete:
+
+### Keyword Verification
+- [ ] Keyword research completed with 20+ terms
+- [ ] Keywords evaluated for relevance, volume, and competition
+- [ ] No repeated keywords across title/subtitle/field
+- [ ] Competitor keywords analyzed
+
+### Visual Verification
+- [ ] Screenshots show actual gameplay
+- [ ] Screenshot 1-2 communicate core value
+- [ ] Icon is recognizable at small sizes
+- [ ] Video (if used) hooks in first 2 seconds
+
+### Description Verification
+- [ ] Above-the-fold content hooks the reader
+- [ ] Benefits emphasized over features
+- [ ] Keywords included naturally (not stuffed)
+- [ ] Description is scannable with bullet points
+
+### Testing Verification
+- [ ] Testing roadmap created (what to test first)
+- [ ] Baseline metrics documented
+- [ ] A/B test plan respects statistical significance
+- [ ] Competitive positioning addressed
+
 ## Golden Rules
 
 1. **First impression wins** - Screenshot 1 and icon matter most
@@ -222,3 +250,14 @@ Traffic threshold: ~1000 impressions/week minimum for meaningful results
 3. **Test, don't guess** - Data beats opinion
 4. **Update regularly** - ASO is ongoing, not one-time
 5. **Learn from competitors** - What works for them might work for you
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `market-analyst` | Understand competitive landscape |
+| Before | `art-director` | Ensure visual assets match brand |
+| After | `launch-strategist` | Integrate into launch plan |
+| Parallel | `community-builder` | Coordinate store and community |
+| Parallel | `analytics-interpreter` | Track conversion metrics |
+| Verify | `verify-release` | Validate store readiness |

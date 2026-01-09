@@ -266,6 +266,30 @@ O(n²) → O(n log n) → O(n) → O(1)
 - Platform-specific code before broad optimization
 - Assuming one optimization strategy fits all
 
+## Verification
+
+Before considering the optimization complete:
+
+### Performance Verification
+- [ ] Profile again after changes - improvement is measurable, not assumed
+- [ ] Target metrics are met (frame rate, memory, load times)
+- [ ] Worst-case scenarios improved, not just average case
+- [ ] Performance is stable (no new hitches or spikes)
+- [ ] Improvements hold across different hardware/platforms
+
+### Regression Verification
+- [ ] No visual quality degradation (unless intentional trade-off)
+- [ ] No gameplay behavior changes
+- [ ] No new bugs introduced
+- [ ] Other systems not negatively impacted
+- [ ] Memory usage didn't increase while fixing CPU (or vice versa)
+
+### Sustainability Verification
+- [ ] Optimizations are maintainable (not write-only code)
+- [ ] Performance-critical paths are documented
+- [ ] Benchmarks exist to catch future regressions
+- [ ] Team understands the changes and trade-offs
+
 ## Optimization Wisdom
 
 1. **The fastest code is code that doesn't run** - Can you skip it?
@@ -274,3 +298,14 @@ O(n²) → O(n log n) → O(n) → O(1)
 4. **Batch, don't loop** - Do many things at once
 5. **Trade memory for speed** - Cache results
 6. **Trade accuracy for speed** - "Close enough" is often good enough in games
+
+## Related Agents
+
+| When | Agent | Why |
+|------|-------|-----|
+| Before | `gameplay-coder` | Implementation must exist before profiling |
+| After | `architecture-sage` | When optimization requires architectural changes |
+| After | `gameplay-coder` | To implement the performance fixes |
+| Parallel | `debug-hunter` | When performance issues might be bugs |
+| Parallel | `tools-builder` | For building profiling/benchmark tools |
+| Verify | `verify-implementation` | Validate optimizations work correctly |

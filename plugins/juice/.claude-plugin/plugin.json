@@ -1,7 +1,7 @@
 {
   "name": "juice",
   "description": "Game feel and polish - screen shake, particles, animation easing, audio feedback, and the secret sauce that makes games satisfying",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "GameDev Plugins"
   },
