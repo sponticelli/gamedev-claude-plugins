@@ -1,0 +1,20 @@
+{
+  "name": "user-research",
+  "description": "User research - playtesting, player surveys, behavioral analysis, and UX research",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/playtest-coordinator.md",
+    "./agents/player-researcher.md",
+    "./agents/ux-analyst.md"
+  ],
+  "commands": [
+    "./commands/playtest-plan.md",
+    "./commands/survey-design.md",
+    "./commands/research-brief.md"
+  ]
+}

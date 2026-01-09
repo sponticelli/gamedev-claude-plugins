@@ -27,6 +27,15 @@ claude plugin install strategy@gamedev-claude-plugins
 claude plugin install scope-guardian@gamedev-claude-plugins
 claude plugin install juice@gamedev-claude-plugins
 claude plugin install accessibility@gamedev-claude-plugins
+claude plugin install narrative@gamedev-claude-plugins
+claude plugin install level-design@gamedev-claude-plugins
+claude plugin install multiplayer@gamedev-claude-plugins
+claude plugin install technical-art@gamedev-claude-plugins
+claude plugin install ai-systems@gamedev-claude-plugins
+claude plugin install procedural@gamedev-claude-plugins
+claude plugin install certification@gamedev-claude-plugins
+claude plugin install user-research@gamedev-claude-plugins
+claude plugin install social-systems@gamedev-claude-plugins
 ```
 
 ### Installation Scopes
@@ -67,21 +76,47 @@ claude plugin install game-design@gamedev-claude-plugins --scope project
 
 ## Plugins Overview
 
+### Core Development
+
 | Plugin | Focus | Agents | Commands |
 |--------|-------|--------|----------|
-| **thinking** | Creativity, mental models, biases, decision frameworks | 5 | 12 |
-| **game-design** | Mechanics, systems, balance | 7 | 3 |
-| **engineering** | Architecture, performance, debugging | 5 | 4 |
-| **ui-ux** | Interface and onboarding | 2 | 2 |
+| **game-design** | Mechanics, systems, balance, player psychology | 7 | 6 |
+| **engineering** | Architecture, performance, debugging, refactoring | 6 | 5 |
 | **art** | Visual direction and asset planning | 2 | 2 |
 | **audio** | Sound design and music | 2 | 2 |
-| **product** | Product management for any product | 2 | 2 |
-| **marketing** | Launch, community, and store presence | 3 | 4 |
-| **operations** | Live ops, analytics, and QA | 3 | 2 |
-| **strategy** | Business strategy for any venture | 3 | 2 |
-| **scope-guardian** | Scope management and feature alignment | 1 | 2 |
-| **juice** | Game feel and polish | 1 | 2 |
+
+### Specialized Disciplines
+
+| Plugin | Focus | Agents | Commands |
+|--------|-------|--------|----------|
+| **narrative** | Dialogue, lore, quests, localization | 4 | 4 |
+| **level-design** | Layout, pacing, encounters, environmental storytelling | 4 | 4 |
+| **multiplayer** | Networking, backend, anti-cheat, server infrastructure | 5 | 5 |
+| **technical-art** | Pipelines, animation, shaders, optimization | 4 | 4 |
+| **ai-systems** | Behavior trees, NPC design, dynamic difficulty | 3 | 4 |
+| **procedural** | PCG algorithms, constraints, seed systems | 3 | 4 |
+| **certification** | Platform compliance, audits, submission | 3 | 3 |
+| **user-research** | Playtesting, surveys, UX analysis | 3 | 3 |
+| **social-systems** | Guilds, clans, social features | 2 | 2 |
+
+### Design & UX
+
+| Plugin | Focus | Agents | Commands |
+|--------|-------|--------|----------|
+| **ui-ux** | Interface and onboarding | 2 | 2 |
 | **accessibility** | Inclusive design for all players | 1 | 2 |
+| **juice** | Game feel and polish | 1 | 2 |
+| **scope-guardian** | Scope management and feature alignment | 1 | 2 |
+
+### Production & Strategy
+
+| Plugin | Focus | Agents | Commands |
+|--------|-------|--------|----------|
+| **thinking** | Creativity, mental models, biases, decision frameworks | 5 | 11 |
+| **product** | Product management for any product | 2 | 2 |
+| **marketing** | Launch, community, store presence, influencers | 3 | 5 |
+| **operations** | Live ops, analytics, monetization, QA | 5 | 2 |
+| **strategy** | Business strategy for any venture | 3 | 3 |
 
 ---
 
@@ -144,12 +179,14 @@ Game programming, architecture, and technical problem-solving.
 - **debug-hunter** — Tracks down bugs through systematic investigation
 - **gameplay-coder** — Implements mechanics with proper feel
 - **tools-builder** — Creates internal tools and dev workflows
+- **verify-implementation** — Verifies code matches specifications
 
 **Commands:**
 - `/code-review` — Quick code review for game development
 - `/tech-spec` — Generate a technical specification
 - `/pattern` — Explain a design pattern for games
 - `/tech-stack` — Get advice on engine/framework selection
+- `/refactoring-plan` — Create structured approach for code refactoring
 
 ---
 
@@ -211,7 +248,7 @@ Product management, prioritization, and planning for any product. Works for soft
 
 ### marketing
 
-Game marketing, store presence, and community building.
+Game marketing, store presence, community building, and influencer outreach.
 
 **Agents:**
 - **launch-strategist** — Plans game launch campaigns
@@ -223,17 +260,20 @@ Game marketing, store presence, and community building.
 - `/announcement` — Write announcement posts
 - `/trailer` — Plan a game trailer with shot list
 - `/devlog` — Create development log posts
+- `/influencer-brief` — Create influencer outreach and collaboration brief
 
 ---
 
 ### operations
 
-Live operations, analytics, and quality assurance.
+Live operations, analytics, monetization, and quality assurance.
 
 **Agents:**
 - **live-ops-commander** — Manages live game operations
 - **analytics-interpreter** — Interprets game analytics
 - **qa-planner** — Plans testing and quality assurance
+- **verify-release** — Pre-release verification checklist
+- **monetization-strategist** — Designs ethical monetization strategies
 
 **Commands:**
 - `/postmortem` — Structure a project postmortem
@@ -295,6 +335,160 @@ Game accessibility—ensuring games are playable by everyone through visual, mot
 
 ---
 
+### narrative
+
+Narrative design—dialogue, world-building, quests, and localization.
+
+**Agents:**
+- **dialogue-architect** — Designs branching dialogue and conversation systems
+- **lore-builder** — Creates world-building and environmental storytelling
+- **quest-designer** — Structures quests, objectives, and rewards
+- **localization-strategist** — Plans localization and cultural adaptation
+
+**Commands:**
+- `/dialogue-tree` — Generate branching dialogue structure
+- `/narrative-brief` — Quick narrative direction document
+- `/localization-plan` — Localization strategy and execution plan
+- `/world-bible` — Generate world-building foundation document
+
+---
+
+### level-design
+
+Level design—spatial design, pacing, and environmental storytelling.
+
+**Agents:**
+- **level-architect** — Plans level layout, pacing, and progression
+- **spatial-designer** — Designs spaces, sightlines, and navigation flow
+- **encounter-designer** — Designs combat/puzzle encounters within levels
+- **environment-storyteller** — Integrates narrative through environment
+
+**Commands:**
+- `/level-brief` — Quick level design specification
+- `/layout-wireframe` — Text-based level layout description
+- `/pacing-curve` — Level pacing and intensity curve
+- `/encounter-spec` — Single encounter design specification
+
+---
+
+### multiplayer
+
+Multiplayer systems—networking, backend development, and online infrastructure.
+
+**Agents:**
+- **network-architect** — Designs client-server, P2P, or hybrid architecture
+- **netcode-specialist** — Handles latency, prediction, interpolation, sync
+- **server-planner** — Plans infrastructure, scaling, regional deployment
+- **anti-cheat-architect** — Designs validation and security measures
+- **backend-developer** — Implements server-side game logic and services
+
+**Commands:**
+- `/network-spec` — Network architecture decision document
+- `/netcode-brief` — Low-level networking specification
+- `/server-scaling-plan` — Infrastructure and scaling strategy
+- `/matchmaking-spec` — Matchmaking system design
+- `/rpc-design` — RPC/messaging system design
+
+---
+
+### technical-art
+
+Technical art—bridging art and engineering through pipelines, shaders, and optimization.
+
+**Agents:**
+- **pipeline-architect** — Plans DCC-to-engine workflows and automation
+- **animation-systems-designer** — Designs rigs, state machines, blend trees
+- **asset-optimizer** — Optimizes models, textures, LODs for performance
+- **shader-architect** — Plans materials, shaders, rendering techniques
+
+**Commands:**
+- `/art-pipeline-spec` — Art production pipeline specification
+- `/animation-spec` — Animation system and state machine design
+- `/optimization-audit` — Asset optimization analysis
+- `/shader-brief` — Shader/material direction document
+
+---
+
+### ai-systems
+
+Game AI—behavior trees, NPC design, and adaptive systems.
+
+**Agents:**
+- **behavior-architect** — Designs NPC behavior trees and state machines
+- **difficulty-adapter** — Designs dynamic difficulty adjustment systems
+- **npc-personality-designer** — Creates NPC personality and reactions
+
+**Commands:**
+- `/behavior-tree` — Generate behavior tree structure
+- `/npc-spec` — NPC behavior specification
+- `/difficulty-curve` — Dynamic difficulty system design
+- `/ai-architecture` — AI system architecture overview
+
+---
+
+### procedural
+
+Procedural content generation—algorithms, constraints, and seed systems.
+
+**Agents:**
+- **pcg-architect** — Designs procedural content generation systems
+- **algorithm-advisor** — Matches PCG algorithms to use cases
+- **constraint-designer** — Designs rule systems for procedural content
+
+**Commands:**
+- `/pcg-spec` — Procedural generation system specification
+- `/algorithm-eval` — Evaluate which PCG algorithm fits needs
+- `/constraint-rules` — Content generation constraints and rules
+- `/seed-system` — Design reproducible seed system
+
+---
+
+### certification
+
+Platform certification—TRC/XR compliance, audits, and submission.
+
+**Agents:**
+- **certification-planner** — Plans compliance from project start
+- **platform-auditor** — Audits against platform-specific requirements
+- **submission-coordinator** — Manages submission workflow and timing
+
+**Commands:**
+- `/cert-checklist` — Platform-specific certification requirements
+- `/compliance-audit` — Check against platform requirements
+- `/submission-plan` — Timeline for platform submissions
+
+---
+
+### user-research
+
+User research—playtesting, surveys, and UX analysis.
+
+**Agents:**
+- **playtest-coordinator** — Plans and runs playtesting sessions
+- **player-researcher** — Designs surveys, interviews, and analysis
+- **ux-analyst** — Analyzes player behavior and identifies pain points
+
+**Commands:**
+- `/playtest-plan` — Structured playtesting session plan
+- `/survey-design` — Player survey with effective question design
+- `/research-brief` — Quick player research objective document
+
+---
+
+### social-systems
+
+Social systems—guilds, clans, and in-game social features.
+
+**Agents:**
+- **guild-architect** — Designs clan/guild systems and group mechanics
+- **social-designer** — Plans social features, communication, and sharing
+
+**Commands:**
+- `/guild-spec` — Guild/clan system specification
+- `/social-features-plan` — In-game social features design
+
+---
+
 ## Design Philosophy
 
 ### Tech-Stack Agnostic
@@ -345,16 +539,44 @@ You: I'm not sure if I should continue with this project
 Claude: [Uses pivot-evaluator agent to help you make a clear-eyed assessment]
 ```
 
+### Multiplayer Architecture
+```
+You: /network-spec
+
+Claude: [Analyzes requirements and designs client-server vs P2P architecture]
+```
+
+### Narrative Design
+```
+You: Help me create a branching dialogue system for my RPG
+
+Claude: [Uses dialogue-architect agent to design conversation trees and voice]
+```
+
+### Level Design
+```
+You: /pacing-curve
+
+Claude: [Creates intensity and pacing curve for level progression]
+```
+
+### Platform Certification
+```
+You: /cert-checklist PlayStation
+
+Claude: [Generates PlayStation TRC requirements checklist]
+```
+
 ---
 
 ## Total Toolkit
 
 | Category | Count |
 |----------|-------|
-| Plugins | 13 |
-| Agents | 37 |
-| Commands | 41 |
-| **Total Tools** | **78** |
+| Plugins | 22 |
+| Agents | 71 |
+| Commands | 73 |
+| **Total Tools** | **144** |
 
 ---
 

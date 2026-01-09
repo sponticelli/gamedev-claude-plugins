@@ -1,0 +1,20 @@
+{
+  "name": "certification",
+  "description": "Platform certification - TRC/XR compliance, submission planning, and platform requirements",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/certification-planner.md",
+    "./agents/platform-auditor.md",
+    "./agents/submission-coordinator.md"
+  ],
+  "commands": [
+    "./commands/cert-checklist.md",
+    "./commands/compliance-audit.md",
+    "./commands/submission-plan.md"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "name": "GameDev Claude Plugins",
+  "description": "A comprehensive collection of Claude Code plugins for game development",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins",
+    "url": "https://github.com/sponticelli/gamedev-claude-plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "categories": [
+    {
+      "name": "Core Game Development",
+      "description": "Essential game development disciplines",
+      "plugins": [
+        "game-design",
+        "engineering",
+        "art",
+        "audio"
+      ]
+    },
+    {
+      "name": "Production & Strategy",
+      "description": "Business, product, and go-to-market",
+      "plugins": [
+        "product",
+        "marketing",
+        "operations",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Design & UX",
+      "description": "Player experience and interface design",
+      "plugins": [
+        "ui-ux",
+        "accessibility",
+        "juice",
+        "scope-guardian"
+      ]
+    },
+    {
+      "name": "Creative Process",
+      "description": "Thinking tools and ideation",
+      "plugins": [
+        "thinking"
+      ]
+    },
+    {
+      "name": "Specialized Disciplines",
+      "description": "Focused expertise areas",
+      "plugins": [
+        "narrative",
+        "level-design",
+        "multiplayer",
+        "technical-art",
+        "ai-systems",
+        "procedural",
+        "certification",
+        "user-research",
+        "social-systems"
+      ]
+    }
+  ],
+  "plugins": [
+    {
+      "name": "game-design",
+      "path": "plugins/game-design",
+      "description": "Core game design - mechanics, systems, balance, player psychology, puzzles, economy, and difficulty",
+      "version": "1.1.0",
+      "agents": 7,
+      "commands": 6
+    },
+    {
+      "name": "engineering",
+      "path": "plugins/engineering",
+      "description": "Game programming, architecture, performance, refactoring, and technical problem-solving",
+      "version": "1.2.0",
+      "agents": 6,
+      "commands": 5
+    },
+    {
+      "name": "art",
+      "path": "plugins/art",
+      "description": "Visual direction, art production, and asset planning for games",
+      "version": "1.1.0",
+      "agents": 2,
+      "commands": 2
+    },
+    {
+      "name": "audio",
+      "path": "plugins/audio",
+      "description": "Game audio design, music direction, and sound implementation",
+      "version": "1.1.0",
+      "agents": 2,
+      "commands": 2
+    },
+    {
+      "name": "product",
+      "path": "plugins/product",
+      "description": "Product management, roadmaps, and agile game development",
+      "version": "1.1.0",
+      "agents": 2,
+      "commands": 2
+    },
+    {
+      "name": "marketing",
+      "path": "plugins/marketing",
+      "description": "Game marketing, community building, store presence, influencer outreach, and launch strategies",
+      "version": "1.2.0",
+      "agents": 3,
+      "commands": 5
+    },
+    {
+      "name": "operations",
+      "path": "plugins/operations",
+      "description": "Live operations, analytics, monetization, player support, and post-launch management",
+      "version": "1.2.0",
+      "agents": 5,
+      "commands": 2
+    },
+    {
+      "name": "strategy",
+      "path": "plugins/strategy",
+      "description": "Business strategy, market analysis, and strategic decision-making",
+      "version": "1.1.0",
+      "agents": 3,
+      "commands": 3
+    },
+    {
+      "name": "ui-ux",
+      "path": "plugins/ui-ux",
+      "description": "Game UI design, UX patterns, and onboarding",
+      "version": "1.1.0",
+      "agents": 3,
+      "commands": 2
+    },
+    {
+      "name": "accessibility",
+      "path": "plugins/accessibility",
+      "description": "Game accessibility - visual, motor, cognitive, and auditory accommodations",
+      "version": "1.1.0",
+      "agents": 1,
+      "commands": 2
+    },
+    {
+      "name": "juice",
+      "path": "plugins/juice",
+      "description": "Game feel, polish, and satisfying feedback systems",
+      "version": "1.1.0",
+      "agents": 1,
+      "commands": 2
+    },
+    {
+      "name": "scope-guardian",
+      "path": "plugins/scope-guardian",
+      "description": "Scope management, feature prioritization, and scope creep prevention",
+      "version": "1.1.0",
+      "agents": 1,
+      "commands": 2
+    },
+    {
+      "name": "thinking",
+      "path": "plugins/thinking",
+      "description": "Creative thinking tools, brainstorming, and problem-solving frameworks",
+      "version": "1.1.0",
+      "agents": 5,
+      "commands": 11
+    },
+    {
+      "name": "narrative",
+      "path": "plugins/narrative",
+      "description": "Narrative design - dialogue, lore, quests, and localization",
+      "version": "1.2.0",
+      "agents": 4,
+      "commands": 4
+    },
+    {
+      "name": "level-design",
+      "path": "plugins/level-design",
+      "description": "Level design - layout, pacing, encounters, and environmental storytelling",
+      "version": "1.2.0",
+      "agents": 4,
+      "commands": 4
+    },
+    {
+      "name": "multiplayer",
+      "path": "plugins/multiplayer",
+      "description": "Multiplayer systems - networking, backend, anti-cheat, and server infrastructure",
+      "version": "1.2.0",
+      "agents": 5,
+      "commands": 5
+    },
+    {
+      "name": "technical-art",
+      "path": "plugins/technical-art",
+      "description": "Technical art - pipelines, animation systems, shaders, and asset optimization",
+      "version": "1.2.0",
+      "agents": 4,
+      "commands": 4
+    },
+    {
+      "name": "ai-systems",
+      "path": "plugins/ai-systems",
+      "description": "Game AI - behavior trees, NPC design, and dynamic difficulty",
+      "version": "1.2.0",
+      "agents": 3,
+      "commands": 4
+    },
+    {
+      "name": "procedural",
+      "path": "plugins/procedural",
+      "description": "Procedural content generation - algorithms, constraints, and seed systems",
+      "version": "1.2.0",
+      "agents": 3,
+      "commands": 4
+    },
+    {
+      "name": "certification",
+      "path": "plugins/certification",
+      "description": "Platform certification - TRC/XR compliance, audits, and submission",
+      "version": "1.2.0",
+      "agents": 3,
+      "commands": 3
+    },
+    {
+      "name": "user-research",
+      "path": "plugins/user-research",
+      "description": "User research - playtesting, player surveys, and UX analysis",
+      "version": "1.2.0",
+      "agents": 3,
+      "commands": 3
+    },
+    {
+      "name": "social-systems",
+      "path": "plugins/social-systems",
+      "description": "Social systems - guilds, clans, and in-game social features",
+      "version": "1.2.0",
+      "agents": 2,
+      "commands": 2
+    }
+  ],
+  "stats": {
+    "totalPlugins": 22,
+    "totalAgents": 71,
+    "totalCommands": 73,
+    "totalTools": 144
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "engineering",
-  "description": "Game programming, architecture, performance, and technical problem-solving",
-  "version": "1.1.0",
+  "description": "Game programming, architecture, performance, refactoring, and technical problem-solving",
+  "version": "1.2.0",
   "author": {
     "name": "GameDev Plugins"
   },
@@ -19,6 +19,7 @@
     "./commands/code-review.md",
     "./commands/tech-spec.md",
     "./commands/pattern.md",
-    "./commands/tech-stack.md"
+    "./commands/tech-stack.md",
+    "./commands/refactoring-plan.md"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "name": "multiplayer",
+  "description": "Multiplayer game development - networking architecture, netcode, server infrastructure, anti-cheat, and backend services",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/network-architect.md",
+    "./agents/netcode-specialist.md",
+    "./agents/server-planner.md",
+    "./agents/anti-cheat-architect.md",
+    "./agents/backend-developer.md"
+  ],
+  "commands": [
+    "./commands/network-spec.md",
+    "./commands/netcode-brief.md",
+    "./commands/server-scaling-plan.md",
+    "./commands/matchmaking-spec.md",
+    "./commands/rpc-design.md"
+  ]
+}

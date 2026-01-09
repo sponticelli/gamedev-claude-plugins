@@ -1,0 +1,22 @@
+{
+  "name": "technical-art",
+  "description": "Technical art - pipelines, animation systems, asset optimization, and shader development",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/pipeline-architect.md",
+    "./agents/animation-systems-designer.md",
+    "./agents/asset-optimizer.md",
+    "./agents/shader-architect.md"
+  ],
+  "commands": [
+    "./commands/art-pipeline-spec.md",
+    "./commands/animation-spec.md",
+    "./commands/optimization-audit.md",
+    "./commands/shader-brief.md"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ai-systems",
+  "description": "Game AI - behavior trees, NPC systems, dynamic difficulty, and intelligent agent design",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/behavior-architect.md",
+    "./agents/difficulty-adapter.md",
+    "./agents/npc-personality-designer.md"
+  ],
+  "commands": [
+    "./commands/behavior-tree.md",
+    "./commands/npc-spec.md",
+    "./commands/difficulty-curve.md",
+    "./commands/ai-architecture.md"
+  ]
+}

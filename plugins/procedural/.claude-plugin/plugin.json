@@ -1,0 +1,21 @@
+{
+  "name": "procedural",
+  "description": "Procedural content generation - PCG systems, algorithms, constraints, and emergent content",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/pcg-architect.md",
+    "./agents/algorithm-advisor.md",
+    "./agents/constraint-designer.md"
+  ],
+  "commands": [
+    "./commands/pcg-spec.md",
+    "./commands/algorithm-eval.md",
+    "./commands/constraint-rules.md",
+    "./commands/seed-system.md"
+  ]
+}

@@ -9,7 +9,8 @@
       "Bash(grep:*)",
       "Bash(ls:*)",
       "Bash(xargs:*)",
-      "WebFetch(domain:twitter-thread.com)"
+      "WebFetch(domain:twitter-thread.com)",
+      "WebSearch"
     ]
   }
 }

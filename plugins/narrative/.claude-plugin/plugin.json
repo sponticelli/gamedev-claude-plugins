@@ -1,0 +1,22 @@
+{
+  "name": "narrative",
+  "description": "Narrative design - dialogue systems, world-building, quests, and localization for games",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/dialogue-architect.md",
+    "./agents/lore-builder.md",
+    "./agents/quest-designer.md",
+    "./agents/localization-strategist.md"
+  ],
+  "commands": [
+    "./commands/dialogue-tree.md",
+    "./commands/narrative-brief.md",
+    "./commands/localization-plan.md",
+    "./commands/world-bible.md"
+  ]
+}

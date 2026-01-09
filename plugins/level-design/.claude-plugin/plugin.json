@@ -1,0 +1,22 @@
+{
+  "name": "level-design",
+  "description": "Level design - spatial design, pacing, encounters, and environmental storytelling",
+  "version": "1.2.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/level-architect.md",
+    "./agents/spatial-designer.md",
+    "./agents/encounter-designer.md",
+    "./agents/environment-storyteller.md"
+  ],
+  "commands": [
+    "./commands/level-brief.md",
+    "./commands/layout-wireframe.md",
+    "./commands/pacing-curve.md",
+    "./commands/encounter-spec.md"
+  ]
+}
