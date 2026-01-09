@@ -17,6 +17,7 @@ claude plugin marketplace add sponticelli/gamedev-claude-plugins
 claude plugin install thinking@gamedev-claude-plugins
 claude plugin install game-design@gamedev-claude-plugins
 claude plugin install engineering@gamedev-claude-plugins
+claude plugin install devops@gamedev-claude-plugins
 claude plugin install ui-ux@gamedev-claude-plugins
 claude plugin install art@gamedev-claude-plugins
 claude plugin install audio@gamedev-claude-plugins
@@ -36,6 +37,7 @@ claude plugin install procedural@gamedev-claude-plugins
 claude plugin install certification@gamedev-claude-plugins
 claude plugin install user-research@gamedev-claude-plugins
 claude plugin install social-systems@gamedev-claude-plugins
+claude plugin install web-games@gamedev-claude-plugins
 ```
 
 ### Installation Scopes
@@ -84,6 +86,7 @@ claude plugin install game-design@gamedev-claude-plugins --scope project
 | **engineering** | Architecture, performance, debugging, refactoring | 6 | 5 |
 | **art** | Visual direction and asset planning | 2 | 2 |
 | **audio** | Sound design and music | 2 | 2 |
+| **devops** | CI/CD, builds, testing, deployment, infrastructure | 6 | 6 |
 
 ### Specialized Disciplines
 
@@ -98,6 +101,7 @@ claude plugin install game-design@gamedev-claude-plugins --scope project
 | **certification** | Platform compliance, audits, submission | 3 | 3 |
 | **user-research** | Playtesting, surveys, UX analysis | 3 | 3 |
 | **social-systems** | Guilds, clans, social features | 2 | 2 |
+| **web-games** | Browser games, WebGL, PWA, HTML5 | 6 | 5 |
 
 ### Design & UX
 
@@ -115,7 +119,7 @@ claude plugin install game-design@gamedev-claude-plugins --scope project
 | **thinking** | Creativity, mental models, biases, decision frameworks | 5 | 11 |
 | **product** | Product management for any product | 2 | 2 |
 | **marketing** | Launch, community, store presence, influencers | 3 | 5 |
-| **operations** | Live ops, analytics, monetization, QA | 5 | 2 |
+| **operations** | Live ops, analytics, events, retention, experimentation | 10 | 7 |
 | **strategy** | Business strategy for any venture | 3 | 3 |
 
 ---
@@ -187,6 +191,28 @@ Game programming, architecture, and technical problem-solving.
 - `/pattern` — Explain a design pattern for games
 - `/tech-stack` — Get advice on engine/framework selection
 - `/refactoring-plan` — Create structured approach for code refactoring
+
+---
+
+### devops
+
+CI/CD pipelines, automated testing, build systems, deployment, and infrastructure for game development.
+
+**Agents:**
+- **pipeline-architect** — Designs CI/CD pipelines for game projects
+- **build-engineer** — Optimizes game build processes and asset pipelines
+- **test-automation-lead** — Designs automated testing strategies
+- **infrastructure-planner** — Plans server infrastructure and cloud architecture
+- **deployment-coordinator** — Manages release deployment processes
+- **verify-pipeline** — Verifies CI/CD pipeline health and reliability
+
+**Commands:**
+- `/pipeline-spec` — Generate CI/CD pipeline specification
+- `/build-audit` — Audit build system for optimization opportunities
+- `/test-strategy` — Generate test automation strategy document
+- `/infra-plan` — Generate infrastructure architecture plan
+- `/deploy-checklist` — Generate deployment checklist for a release
+- `/incident-response` — Generate incident response playbook
 
 ---
 
@@ -266,7 +292,7 @@ Game marketing, store presence, community building, and influencer outreach.
 
 ### operations
 
-Live operations, analytics, monetization, and quality assurance.
+Live operations, analytics, monetization, events, retention, and post-launch management.
 
 **Agents:**
 - **live-ops-commander** — Manages live game operations
@@ -274,10 +300,20 @@ Live operations, analytics, monetization, and quality assurance.
 - **qa-planner** — Plans testing and quality assurance
 - **verify-release** — Pre-release verification checklist
 - **monetization-strategist** — Designs ethical monetization strategies
+- **event-designer** — Designs in-game events and seasonal content
+- **retention-specialist** — Designs player retention systems and win-back campaigns
+- **season-architect** — Plans battle passes and seasonal progression
+- **player-segmentation-expert** — Designs player segmentation strategies
+- **ab-test-planner** — Designs A/B tests for game features
 
 **Commands:**
 - `/postmortem` — Structure a project postmortem
 - `/metrics-report` — Generate metrics report template
+- `/event-spec` — Generate specification for an in-game event
+- `/season-plan` — Generate a seasonal content plan
+- `/retention-audit` — Analyze retention and generate improvement recommendations
+- `/ab-test-spec` — Generate A/B test specification
+- `/cohort-analysis` — Generate cohort analysis framework
 
 ---
 
@@ -489,6 +525,27 @@ Social systems—guilds, clans, and in-game social features.
 
 ---
 
+### web-games
+
+Browser games, WebGL, HTML5, PWA, and web-specific game development.
+
+**Agents:**
+- **webgl-specialist** — Optimizes WebGL rendering and 3D web game performance
+- **browser-performance-expert** — Optimizes game performance across browsers
+- **pwa-architect** — Designs progressive web app features for offline support
+- **web-audio-specialist** — Implements Web Audio API and cross-browser sound
+- **canvas-optimization-expert** — Optimizes 2D canvas rendering and frame rates
+- **web-input-handler** — Designs cross-device input systems for web games
+
+**Commands:**
+- `/webgl-audit` — Audit WebGL implementation for compatibility and performance
+- `/web-perf-report` — Generate web game performance analysis report
+- `/pwa-spec` — Generate PWA specification for a web game
+- `/browser-compat-matrix` — Generate browser compatibility testing matrix
+- `/web-optimization-checklist` — Generate optimization checklist for web game release
+
+---
+
 ## Design Philosophy
 
 ### Tech-Stack Agnostic
@@ -567,16 +624,44 @@ You: /cert-checklist PlayStation
 Claude: [Generates PlayStation TRC requirements checklist]
 ```
 
+### DevOps & CI/CD
+```
+You: /pipeline-spec
+
+Claude: [Designs CI/CD pipeline for your game project with build, test, and deploy stages]
+```
+
+### Web Game Development
+```
+You: /webgl-audit
+
+Claude: [Analyzes WebGL implementation for compatibility issues and performance bottlenecks]
+```
+
+### Live Operations
+```
+You: /event-spec
+
+Claude: [Creates detailed specification for a limited-time in-game event]
+```
+
+### A/B Testing
+```
+You: /ab-test-spec
+
+Claude: [Designs rigorous A/B test with hypothesis, metrics, and decision framework]
+```
+
 ---
 
 ## Total Toolkit
 
 | Category | Count |
 |----------|-------|
-| Plugins | 22 |
-| Agents | 71 |
-| Commands | 73 |
-| **Total Tools** | **144** |
+| Plugins | 24 |
+| Agents | 88 |
+| Commands | 89 |
+| **Total Tools** | **177** |
 
 ---
 

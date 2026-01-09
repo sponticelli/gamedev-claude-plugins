@@ -10,7 +10,8 @@
       "Bash(ls:*)",
       "Bash(xargs:*)",
       "WebFetch(domain:twitter-thread.com)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(for file in /Users/sandroponticelli/Personal/gamedev-claude-plugins/plugins/*/agents/*.md)"
     ]
   }
 }

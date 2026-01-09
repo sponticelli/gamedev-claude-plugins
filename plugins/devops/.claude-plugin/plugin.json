@@ -1,0 +1,26 @@
+{
+  "name": "devops",
+  "description": "CI/CD pipelines, automated testing, build systems, deployment, and infrastructure for game development",
+  "version": "1.0.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/pipeline-architect.md",
+    "./agents/build-engineer.md",
+    "./agents/test-automation-lead.md",
+    "./agents/infrastructure-planner.md",
+    "./agents/deployment-coordinator.md",
+    "./agents/verify-pipeline.md"
+  ],
+  "commands": [
+    "./commands/pipeline-spec.md",
+    "./commands/build-audit.md",
+    "./commands/test-strategy.md",
+    "./commands/infra-plan.md",
+    "./commands/deploy-checklist.md",
+    "./commands/incident-response.md"
+  ]
+}

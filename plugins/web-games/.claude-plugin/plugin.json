@@ -1,0 +1,25 @@
+{
+  "name": "web-games",
+  "description": "Browser games, WebGL, HTML5, PWA, and web-specific game development challenges",
+  "version": "1.0.0",
+  "author": {
+    "name": "GameDev Plugins"
+  },
+  "repository": "https://github.com/sponticelli/gamedev-claude-plugins",
+  "license": "MIT",
+  "agents": [
+    "./agents/webgl-specialist.md",
+    "./agents/browser-performance-expert.md",
+    "./agents/pwa-architect.md",
+    "./agents/web-audio-specialist.md",
+    "./agents/canvas-optimization-expert.md",
+    "./agents/web-input-handler.md"
+  ],
+  "commands": [
+    "./commands/webgl-audit.md",
+    "./commands/web-perf-report.md",
+    "./commands/pwa-spec.md",
+    "./commands/browser-compat-matrix.md",
+    "./commands/web-optimization-checklist.md"
+  ]
+}

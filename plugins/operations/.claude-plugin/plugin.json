@@ -1,7 +1,7 @@
 {
   "name": "operations",
-  "description": "Live operations, analytics, monetization, player support, and post-launch management",
-  "version": "1.2.0",
+  "description": "Live operations, analytics, monetization, player support, events, retention, and post-launch management",
+  "version": "1.3.0",
   "author": {
     "name": "GameDev Plugins"
   },
@@ -12,10 +12,20 @@
     "./agents/analytics-interpreter.md",
     "./agents/qa-planner.md",
     "./agents/verify-release.md",
-    "./agents/monetization-strategist.md"
+    "./agents/monetization-strategist.md",
+    "./agents/event-designer.md",
+    "./agents/retention-specialist.md",
+    "./agents/season-architect.md",
+    "./agents/player-segmentation-expert.md",
+    "./agents/ab-test-planner.md"
   ],
   "commands": [
     "./commands/postmortem.md",
-    "./commands/metrics-report.md"
+    "./commands/metrics-report.md",
+    "./commands/event-spec.md",
+    "./commands/season-plan.md",
+    "./commands/retention-audit.md",
+    "./commands/ab-test-spec.md",
+    "./commands/cohort-analysis.md"
   ]
 }
